@@ -6,13 +6,13 @@ env:
 
 on:
   schedule:
-    - cron: '20 7 * * *' # 每天 UTC 时间 00:00 触发, 即上海时间8点
+    - cron: '40 7 * * *' # 每天 UTC 时间 00:00 触发, 即上海时间8点
 
 jobs:
   daily-push:
     runs-on: ubuntu-latest
     env:
-      SERVERCHAN_API_KEY: ${{ secrets.SERVERCHAN_API_KEY }}
+      SERVERCHAN_API_KEY: "SCT211031TVTRjSG0jMilJkTpQZlHqcV4o"
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       QUERY: "cs.IR"
       LIMITS: 10

@@ -18,6 +18,7 @@ CAIYUN_TOKEN = os.environ.get("CAIYUN_TOKEN", None)
 
 def translate(source, direction='en2zh'):
     url = "http://api.interpreter.caiyunai.com/v1/translator"
+    print(CAIYUN_TOKEN)
 
     payload = {
         "source": source,

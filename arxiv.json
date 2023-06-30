@@ -1671,5 +1671,75 @@
         "pub_date": "2023-06-28",
         "summary": "Feature interactions can play a crucial role in recommendation systems as\nthey capture complex relationships between user preferences and item\ncharacteristics. Existing methods such as Deep &amp; Cross Network (DCNv2) may\nsuffer from high computational requirements due to their cross-layer\noperations. In this paper, we propose a novel approach called blockwise feature\ninteraction (BFI) to help alleviate this issue. By partitioning the feature\ninteraction process into smaller blocks, we can significantly reduce both the\nmemory footprint and the computational burden. Four variants (denoted by P, Q,\nT, S, respectively) of BFI have been developed and empirically compared. Our\nexperimental results demonstrate that the proposed algorithms achieves close\naccuracy compared to the standard DCNv2, while greatly reducing the\ncomputational overhead and the number of parameters. This paper contributes to\nthe development of efficient recommendation systems by providing a practical\nsolution for improving feature interaction efficiency.",
         "translated": ""
+    },
+    {
+        "title": "Ducho: A Unified Framework for the Extraction of Multimodal Features in\n  Recommendation",
+        "url": "http://arxiv.org/abs/2306.17125v1",
+        "pub_date": "2023-06-29",
+        "summary": "In multimodal-aware recommendation, the extraction of meaningful multimodal\nfeatures is at the basis of high-quality recommendations. Generally, each\nrecommendation framework implements its multimodal extraction procedures with\nspecific strategies and tools. This is limiting for two reasons: (i) different\nextraction strategies do not ease the interdependence among multimodal\nrecommendation frameworks; thus, they cannot be efficiently and fairly\ncompared; (ii) given the large plethora of pre-trained deep learning models\nmade available by different open source tools, model designers do not have\naccess to shared interfaces to extract features. Motivated by the outlined\naspects, we propose Ducho, a unified framework for the extraction of multimodal\nfeatures in recommendation. By integrating three widely-adopted deep learning\nlibraries as backends, namely, TensorFlow, PyTorch, and Transformers, we\nprovide a shared interface to extract and process features where each backend's\nspecific methods are abstracted to the end user. Noteworthy, the extraction\npipeline is easily configurable with a YAML-based file where the user can\nspecify, for each modality, the list of models (and their specific\nbackends/parameters) to perform the extraction. Finally, to make Ducho\naccessible to the community, we build a public Docker image equipped with a\nready-to-use CUDA environment and propose three demos to test its\nfunctionalities for different scenarios and tasks. The GitHub repository and\nthe documentation is accessible at this link:\nhttps://github.com/sisinflab/Ducho.",
+        "translated": ""
+    },
+    {
+        "title": "Re-Rank - Expand - Repeat: Adaptive Query Expansion for Document\n  Retrieval Using Words and Entities",
+        "url": "http://arxiv.org/abs/2306.17082v1",
+        "pub_date": "2023-06-29",
+        "summary": "Sparse and dense pseudo-relevance feedback (PRF) approaches perform poorly on\nchallenging queries due to low precision in first-pass retrieval. However,\nrecent advances in neural language models (NLMs) can re-rank relevant documents\nto top ranks, even when few are in the re-ranking pool. This paper first\naddresses the problem of poor pseudo-relevance feedback by simply applying\nre-ranking prior to query expansion and re-executing this query. We find that\nthis change alone can improve the retrieval effectiveness of sparse and dense\nPRF approaches by 5-8%. Going further, we propose a new expansion model, Latent\nEntity Expansion (LEE), a fine-grained word and entity-based relevance\nmodelling incorporating localized features. Finally, we include an \"adaptive\"\ncomponent to the retrieval process, which iteratively refines the re-ranking\npool during scoring using the expansion model, i.e. we \"re-rank - expand -\nrepeat\". Using LEE, we achieve (to our knowledge) the best NDCG, MAP and R@1000\nresults on the TREC Robust 2004 and CODEC adhoc document datasets,\ndemonstrating a significant advancement in expansion effectiveness.",
+        "translated": ""
+    },
+    {
+        "title": "Harnessing the Power of Hugging Face Transformers for Predicting Mental\n  Health Disorders in Social Networks",
+        "url": "http://arxiv.org/abs/2306.16891v1",
+        "pub_date": "2023-06-29",
+        "summary": "Early diagnosis of mental disorders and intervention can facilitate the\nprevention of severe injuries and the improvement of treatment results. Using\nsocial media and pre-trained language models, this study explores how\nuser-generated data can be used to predict mental disorder symptoms. Our study\ncompares four different BERT models of Hugging Face with standard machine\nlearning techniques used in automatic depression diagnosis in recent\nliterature. The results show that new models outperform the previous approach\nwith an accuracy rate of up to 97%. Analyzing the results while complementing\npast findings, we find that even tiny amounts of data (like users' bio\ndescriptions) have the potential to predict mental disorders. We conclude that\nsocial media data is an excellent source of mental health screening, and\npre-trained models can effectively automate this critical task.",
+        "translated": ""
+    },
+    {
+        "title": "Computing all-vs-all MEMs in grammar-compressed text",
+        "url": "http://arxiv.org/abs/2306.16815v1",
+        "pub_date": "2023-06-29",
+        "summary": "We describe a compression-aware method to compute all-vs-all maximal exact\nmatches (MEM) among strings of a repetitive collection $\\mathcal{T}$. The key\nconcept in our work is the construction of a fully-balanced grammar\n$\\mathcal{G}$ from $\\mathcal{T}$ that meets a property that we call\n\\emph{fix-free}: the expansions of the nonterminals that have the same height\nin the parse tree form a fix-free set (i.e., prefix-free and suffix-free). The\nfix-free property allows us to compute the MEMs of $\\mathcal{T}$ incrementally\nover $\\mathcal{G}$ using a standard suffix-tree-based MEM algorithm, which runs\non a subset of grammar rules at a time and does not decompress nonterminals. By\nmodifying the locally-consistent grammar of Christiansen et al 2020., we show\nhow we can build $\\mathcal{G}$ from $\\mathcal{T}$ in linear time and space. We\nalso demonstrate that our MEM algorithm runs on top of $\\mathcal{G}$ in $O(G\n+occ)$ time and uses $O(\\log G(G+occ))$ bits, where $G$ is the grammar size,\nand $occ$ is the number of MEMs in $\\mathcal{T}$. In the conclusions, we\ndiscuss how our idea can be modified to implement approximate pattern matching\nin compressed space.",
+        "translated": ""
+    },
+    {
+        "title": "Transfer Learning with Semi-Supervised Dataset Annotation for Birdcall\n  Classification",
+        "url": "http://arxiv.org/abs/2306.16760v1",
+        "pub_date": "2023-06-29",
+        "summary": "We present working notes on transfer learning with semi-supervised dataset\nannotation for the BirdCLEF 2023 competition, focused on identifying African\nbird species in recorded soundscapes. Our approach utilizes existing\noff-the-shelf models, BirdNET and MixIT, to address representation and labeling\nchallenges in the competition. We explore the embedding space learned by\nBirdNET and propose a process to derive an annotated dataset for supervised\nlearning. Our experiments involve various models and feature engineering\napproaches to maximize performance on the competition leaderboard. The results\ndemonstrate the effectiveness of our approach in classifying bird species and\nhighlight the potential of transfer learning and semi-supervised dataset\nannotation in similar tasks.",
+        "translated": ""
+    },
+    {
+        "title": "Multi-Scenario Ranking with Adaptive Feature Learning",
+        "url": "http://arxiv.org/abs/2306.16732v1",
+        "pub_date": "2023-06-29",
+        "summary": "Recently, Multi-Scenario Learning (MSL) is widely used in recommendation and\nretrieval systems in the industry because it facilitates transfer learning from\ndifferent scenarios, mitigating data sparsity and reducing maintenance cost.\nThese efforts produce different MSL paradigms by searching more optimal network\nstructure, such as Auxiliary Network, Expert Network, and Multi-Tower Network.\nIt is intuitive that different scenarios could hold their specific\ncharacteristics, activating the user's intents quite differently. In other\nwords, different kinds of auxiliary features would bear varying importance\nunder different scenarios. With more discriminative feature representations\nrefined in a scenario-aware manner, better ranking performance could be easily\nobtained without expensive search for the optimal network structure.\nUnfortunately, this simple idea is mainly overlooked but much desired in\nreal-world systems.Further analysis also validates the rationality of adaptive\nfeature learning under a multi-scenario scheme. Moreover, our A/B test results\non the Alibaba search advertising platform also demonstrate that Maria is\nsuperior in production environments.",
+        "translated": ""
+    },
+    {
+        "title": "Exploring the Representation Power of SPLADE Models",
+        "url": "http://arxiv.org/abs/2306.16680v1",
+        "pub_date": "2023-06-29",
+        "summary": "The SPLADE (SParse Lexical AnD Expansion) model is a highly effective\napproach to learned sparse retrieval, where documents are represented by term\nimpact scores derived from large language models. During training, SPLADE\napplies regularization to ensure postings lists are kept sparse -- with the aim\nof mimicking the properties of natural term distributions -- allowing efficient\nand effective lexical matching and ranking. However, we hypothesize that SPLADE\nmay encode additional signals into common postings lists to further improve\neffectiveness. To explore this idea, we perform a number of empirical analyses\nwhere we re-train SPLADE with different, controlled vocabularies and measure\nhow effective it is at ranking passages. Our findings suggest that SPLADE can\neffectively encode useful ranking signals in documents even when the vocabulary\nis constrained to terms that are not traditionally useful for ranking, such as\nstopwords or even random words.",
+        "translated": ""
+    },
+    {
+        "title": "Beyond CO2 Emissions: The Overlooked Impact of Water Consumption of\n  Information Retrieval Models",
+        "url": "http://arxiv.org/abs/2306.16668v1",
+        "pub_date": "2023-06-29",
+        "summary": "As in other fields of artificial intelligence, the information retrieval\ncommunity has grown interested in investigating the power consumption\nassociated with neural models, particularly models of search. This interest has\nbecome particularly relevant as the energy consumption of information retrieval\nmodels has risen with new neural models based on large language models, leading\nto an associated increase of CO2 emissions, albeit relatively low compared to\nfields such as natural language processing.",
+        "translated": ""
+    },
+    {
+        "title": "Event Detection from Social Media Stream: Methods, Datasets and\n  Opportunities",
+        "url": "http://arxiv.org/abs/2306.16495v1",
+        "pub_date": "2023-06-28",
+        "summary": "Social media streams contain large and diverse amount of information, ranging\nfrom daily-life stories to the latest global and local events and news.\nTwitter, especially, allows a fast spread of events happening real time, and\nenables individuals and organizations to stay informed of the events happening\nnow. Event detection from social media data poses different challenges from\ntraditional text and is a research area that has attracted much attention in\nrecent years. In this paper, we survey a wide range of event detection methods\nfor Twitter data stream, helping readers understand the recent development in\nthis area. We present the datasets available to the public. Furthermore, a few\nresearch opportunities",
+        "translated": ""
+    },
+    {
+        "title": "Pre-Training Multi-Modal Dense Retrievers for Outside-Knowledge Visual\n  Question Answering",
+        "url": "http://arxiv.org/abs/2306.16478v1",
+        "pub_date": "2023-06-28",
+        "summary": "This paper studies a category of visual question answering tasks, in which\naccessing external knowledge is necessary for answering the questions. This\ncategory is called outside-knowledge visual question answering (OK-VQA). A\nmajor step in developing OK-VQA systems is to retrieve relevant documents for\nthe given multi-modal query. Current state-of-the-art asymmetric dense\nretrieval model for this task uses an architecture with a multi-modal query\nencoder and a uni-modal document encoder. Such an architecture requires a large\namount of training data for effective performance. We propose an automatic data\ngeneration pipeline for pre-training passage retrieval models for OK-VQA tasks.\nThe proposed approach leads to 26.9% Precision@5 improvements compared to the\ncurrent state-of-the-art asymmetric architecture. Additionally, the proposed\npre-training approach exhibits a good ability in zero-shot retrieval scenarios.",
+        "translated": ""
     }
 ]

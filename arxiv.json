@@ -2196,5 +2196,61 @@
         "pub_date": "2023-07-13",
         "summary": "The effectiveness of graphical recommender system depends on the quantity and\nquality of negative sampling. This paper selects some typical recommender\nsystem models, as well as some latest negative sampling strategies on the\nmodels as baseline. Based on typical graphical recommender model, we divide\nsample region into assigned-n areas and use AdaSim to give different weight to\nthese areas to form positive set and negative set. Because of the volume and\nsignificance of negative items, we also proposed a subset selection model to\nnarrow the core negative samples.",
         "translated": ""
+    },
+    {
+        "title": "Leveraging Recommender Systems to Reduce Content Gaps on Peer Production\n  Platforms",
+        "url": "http://arxiv.org/abs/2307.08669v1",
+        "pub_date": "2023-07-17",
+        "summary": "Peer production platforms like Wikipedia commonly suffer from content gaps.\nPrior research suggests recommender systems can help solve this problem, by\nguiding editors towards underrepresented topics. However, it remains unclear\nwhether this approach would result in less relevant recommendations, leading to\nreduced overall engagement with recommended items. To answer this question, we\nfirst conducted offline analyses (Study 1) on SuggestBot, a task-routing\nrecommender system for Wikipedia, then did a three-month controlled experiment\n(Study 2). Our results show that presenting users with articles from\nunderrepresented topics increased the proportion of work done on those articles\nwithout significantly reducing overall recommendation uptake. We discuss the\nimplications of our results, including how ignoring the article discovery\nprocess can artificially narrow recommendations. We draw parallels between this\nphenomenon and the common issue of ``filter bubbles'' to show how any platform\nthat employs recommender systems is susceptible to it.",
+        "translated": ""
+    },
+    {
+        "title": "Soft Prompt Tuning for Augmenting Dense Retrieval with Large Language\n  Models",
+        "url": "http://arxiv.org/abs/2307.08303v1",
+        "pub_date": "2023-07-17",
+        "summary": "Dense retrieval (DR) converts queries and documents into dense embeddings and\nmeasures the similarity between queries and documents in vector space. One of\nthe challenges in DR is the lack of domain-specific training data. While DR\nmodels can learn from large-scale public datasets like MS MARCO through\ntransfer learning, evidence shows that not all DR models and domains can\nbenefit from transfer learning equally. Recently, some researchers have\nresorted to large language models (LLMs) to improve the zero-shot and few-shot\nDR models. However, the hard prompts or human-written prompts utilized in these\nworks cannot guarantee the good quality of generated weak queries. To tackle\nthis, we propose soft prompt tuning for augmenting DR (SPTAR): For each task,\nwe leverage soft prompt-tuning to optimize a task-specific soft prompt on\nlimited ground truth data and then prompt the LLMs to tag unlabeled documents\nwith weak queries, yielding enough weak document-query pairs to train\ntask-specific dense retrievers. We design a filter to select high-quality\nexample document-query pairs in the prompt to further improve the quality of\nweak tagged queries. To the best of our knowledge, there is no prior work\nutilizing soft prompt tuning to augment DR models. The experiments demonstrate\nthat SPTAR outperforms the unsupervised baselines BM25 and the recently\nproposed LLMs-based augmentation method for DR.",
+        "translated": ""
+    },
+    {
+        "title": "Measuring Item Global Residual Value for Fair Recommendation",
+        "url": "http://arxiv.org/abs/2307.08259v1",
+        "pub_date": "2023-07-17",
+        "summary": "In the era of information explosion, numerous items emerge every day,\nespecially in feed scenarios. Due to the limited system display slots and user\nbrowsing attention, various recommendation systems are designed not only to\nsatisfy users' personalized information needs but also to allocate items'\nexposure. However, recent recommendation studies mainly focus on modeling user\npreferences to present satisfying results and maximize user interactions, while\npaying little attention to developing item-side fair exposure mechanisms for\nrational information delivery. This may lead to serious resource allocation\nproblems on the item side, such as the Snowball Effect. Furthermore, unfair\nexposure mechanisms may hurt recommendation performance. In this paper, we call\nfor a shift of attention from modeling user preferences to developing fair\nexposure mechanisms for items. We first conduct empirical analyses of feed\nscenarios to explore exposure problems between items with distinct uploaded\ntimes. This points out that unfair exposure caused by the time factor may be\nthe major cause of the Snowball Effect. Then, we propose to explicitly model\nitem-level customized timeliness distribution, Global Residual Value (GRV), for\nfair resource allocation. This GRV module is introduced into recommendations\nwith the designed Timeliness-aware Fair Recommendation Framework (TaFR).\nExtensive experiments on two datasets demonstrate that TaFR achieves consistent\nimprovements with various backbone recommendation models. By modeling item-side\ncustomized Global Residual Value, we achieve a fairer distribution of resources\nand, at the same time, improve recommendation performance.",
+        "translated": ""
+    },
+    {
+        "title": "Data Discovery for the SDGs: A Systematic Rule-based Approach",
+        "url": "http://arxiv.org/abs/2307.07983v1",
+        "pub_date": "2023-07-16",
+        "summary": "In 2015, the United Nations put forward 17 Sustainable Development Goals\n(SDGs) to be achieved by 2030, where data has been promoted as a focus to\ninnovating sustainable development and as a means to measuring progress towards\nachieving the SDGs. In this study, we propose a systematic approach towards\ndiscovering data types and sources that can be used for SDG research. The\nproposed method integrates a systematic mapping approach using manual\nqualitative coding over a corpus of SDG-related research literature followed by\nan automated process that applies rules to perform data entity extraction\ncomputationally. This approach is exemplified by an analysis of literature\nrelating to SDG 7, the results of which are also presented in this paper. The\npaper concludes with a discussion of the approach and suggests future work to\nextend the method with more advance NLP and machine learning techniques.",
+        "translated": ""
+    },
+    {
+        "title": "Opinion mining using Double Channel CNN for Recommender System",
+        "url": "http://arxiv.org/abs/2307.07798v1",
+        "pub_date": "2023-07-15",
+        "summary": "Much unstructured data has been produced with the growth of the Internet and\nsocial media. A significant volume of textual data includes users' opinions\nabout products in online stores and social media. By exploring and categorizing\nthem, helpful information can be acquired, including customer satisfaction,\nuser feedback about a particular event, predicting the sale of a specific\nproduct, and other similar cases. In this paper, we present an approach for\nsentiment analysis with a deep learning model and use it to recommend products.\nA two-channel convolutional neural network model has been used for opinion\nmining, which has five layers and extracts essential features from the data. We\nincreased the number of comments by applying the SMOTE algorithm to the initial\ndataset and balanced the data. Then we proceed to cluster the aspects. We also\nassign a weight to each cluster using tensor decomposition algorithms that\nimprove the recommender system's performance. Our proposed method has reached\n91.6% accuracy, significantly improved compared to previous aspect-based\napproaches.",
+        "translated": ""
+    },
+    {
+        "title": "Improving Trace Link Recommendation by Using Non-Isotropic Distances and\n  Combinations",
+        "url": "http://arxiv.org/abs/2307.07781v1",
+        "pub_date": "2023-07-15",
+        "summary": "The existence of trace links between artifacts of the software development\nlife cycle can improve the efficiency of many activities during software\ndevelopment, maintenance and operations. Unfortunately, the creation and\nmaintenance of trace links is time-consuming and error-prone. Research efforts\nhave been spent to automatically compute trace links and lately gained\nmomentum, e.g., due to the availability of powerful tools in the area of\nnatural language processing. In this paper, we report on some observations that\nwe made during studying non-linear similarity measures for computing trace\nlinks. We argue, that taking a geometric viewpoint on semantic similarity can\nbe helpful for future traceability research. We evaluated our observations on a\ndataset of four open source projects and two industrial projects. We\nfurthermore point out that our findings are more general and can build the\nbasis for other information retrieval problems as well.",
+        "translated": ""
+    },
+    {
+        "title": "Political Sentiment Analysis of Persian Tweets Using CNN-LSTM Model",
+        "url": "http://arxiv.org/abs/2307.07740v1",
+        "pub_date": "2023-07-15",
+        "summary": "Sentiment analysis is the process of identifying and categorizing people's\nemotions or opinions regarding various topics. The analysis of Twitter\nsentiment has become an increasingly popular topic in recent years. In this\npaper, we present several machine learning and a deep learning model to\nanalysis sentiment of Persian political tweets. Our analysis was conducted\nusing Bag of Words and ParsBERT for word representation. We applied Gaussian\nNaive Bayes, Gradient Boosting, Logistic Regression, Decision Trees, Random\nForests, as well as a combination of CNN and LSTM to classify the polarities of\ntweets. The results of this study indicate that deep learning with ParsBERT\nembedding performs better than machine learning. The CNN-LSTM model had the\nhighest classification accuracy with 89 percent on the first dataset with three\nclasses and 71 percent on the second dataset with seven classes. Due to the\ncomplexity of Persian, it was a difficult task to achieve this level of\nefficiency.",
+        "translated": ""
+    },
+    {
+        "title": "On the Robustness of Epoch-Greedy in Multi-Agent Contextual Bandit\n  Mechanisms",
+        "url": "http://arxiv.org/abs/2307.07675v1",
+        "pub_date": "2023-07-15",
+        "summary": "Efficient learning in multi-armed bandit mechanisms such as pay-per-click\n(PPC) auctions typically involves three challenges: 1) inducing truthful\nbidding behavior (incentives), 2) using personalization in the users (context),\nand 3) circumventing manipulations in click patterns (corruptions). Each of\nthese challenges has been studied orthogonally in the literature; incentives\nhave been addressed by a line of work on truthful multi-armed bandit\nmechanisms, context has been extensively tackled by contextual bandit\nalgorithms, while corruptions have been discussed via a recent line of work on\nbandits with adversarial corruptions. Since these challenges co-exist, it is\nimportant to understand the robustness of each of these approaches in\naddressing the other challenges, provide algorithms that can handle all\nsimultaneously, and highlight inherent limitations in this combination. In this\nwork, we show that the most prominent contextual bandit algorithm,\n$\\epsilon$-greedy can be extended to handle the challenges introduced by\nstrategic arms in the contextual multi-arm bandit mechanism setting. We further\nshow that $\\epsilon$-greedy is inherently robust to adversarial data corruption\nattacks and achieves performance that degrades linearly with the amount of\ncorruption.",
+        "translated": ""
     }
 ]

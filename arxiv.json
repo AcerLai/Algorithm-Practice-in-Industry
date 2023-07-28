@@ -2637,5 +2637,47 @@
         "pub_date": "2023-07-25",
         "summary": "In practical scenarios, the effectiveness of sequential recommendation\nsystems is hindered by the user cold-start problem, which arises due to limited\ninteractions for accurately determining user preferences. Previous studies have\nattempted to address this issue by combining meta-learning with user and\nitem-side information. However, these approaches face inherent challenges in\nmodeling user preference dynamics, particularly for \"minor users\" who exhibit\ndistinct preferences compared to more common or \"major users.\" To overcome\nthese limitations, we present a novel approach called ClusterSeq, a\nMeta-Learning Clustering-Based Sequential Recommender System. ClusterSeq\nleverages dynamic information in the user sequence to enhance item prediction\naccuracy, even in the absence of side information. This model preserves the\npreferences of minor users without being overshadowed by major users, and it\ncapitalizes on the collective knowledge of users within the same cluster.\nExtensive experiments conducted on various benchmark datasets validate the\neffectiveness of ClusterSeq. Empirical results consistently demonstrate that\nClusterSeq outperforms several state-of-the-art meta-learning recommenders.\nNotably, compared to existing meta-learning methods, our proposed approach\nachieves a substantial improvement of 16-39% in Mean Reciprocal Rank (MRR).",
         "translated": ""
+    },
+    {
+        "title": "On (Normalised) Discounted Cumulative Gain as an Offline Evaluation\n  Metric for Top-$n$ Recommendation",
+        "url": "http://arxiv.org/abs/2307.15053v1",
+        "pub_date": "2023-07-27",
+        "summary": "Approaches to recommendation are typically evaluated in one of two ways: (1)\nvia a (simulated) online experiment, often seen as the gold standard, or (2)\nvia some offline evaluation procedure, where the goal is to approximate the\noutcome of an online experiment. Several offline evaluation metrics have been\nadopted in the literature, inspired by ranking metrics prevalent in the field\nof Information Retrieval. (Normalised) Discounted Cumulative Gain (nDCG) is one\nsuch metric that has seen widespread adoption in empirical studies, and higher\n(n)DCG values have been used to present new methods as the state-of-the-art in\ntop-$n$ recommendation for many years.\n  Our work takes a critical look at this approach, and investigates when we can\nexpect such metrics to approximate the gold standard outcome of an online\nexperiment. We formally present the assumptions that are necessary to consider\nDCG an unbiased estimator of online reward and provide a derivation for this\nmetric from first principles, highlighting where we deviate from its\ntraditional uses in IR. Importantly, we show that normalising the metric\nrenders it inconsistent, in that even when DCG is unbiased, ranking competing\nmethods by their normalised DCG can invert their relative order. Through a\ncorrelation analysis between off- and on-line experiments conducted on a\nlarge-scale recommendation platform, we show that our unbiased DCG estimates\nstrongly correlate with online reward, even when some of the metric's inherent\nassumptions are violated. This statement no longer holds for its normalised\nvariant, suggesting that nDCG's practical utility may be limited.",
+        "translated": ""
+    },
+    {
+        "title": "The Effect of Third Party Implementations on Reproducibility",
+        "url": "http://arxiv.org/abs/2307.14956v1",
+        "pub_date": "2023-07-27",
+        "summary": "Reproducibility of recommender systems research has come under scrutiny\nduring recent years. Along with works focusing on repeating experiments with\ncertain algorithms, the research community has also started discussing various\naspects of evaluation and how these affect reproducibility. We add a novel\nangle to this discussion by examining how unofficial third-party\nimplementations could benefit or hinder reproducibility. Besides giving a\ngeneral overview, we thoroughly examine six third-party implementations of a\npopular recommender algorithm and compare them to the official version on five\npublic datasets. In the light of our alarming findings we aim to draw the\nattention of the research community to this neglected aspect of\nreproducibility.",
+        "translated": ""
+    },
+    {
+        "title": "Widespread Flaws in Offline Evaluation of Recommender Systems",
+        "url": "http://arxiv.org/abs/2307.14951v1",
+        "pub_date": "2023-07-27",
+        "summary": "Even though offline evaluation is just an imperfect proxy of online\nperformance -- due to the interactive nature of recommenders -- it will\nprobably remain the primary way of evaluation in recommender systems research\nfor the foreseeable future, since the proprietary nature of production\nrecommenders prevents independent validation of A/B test setups and\nverification of online results. Therefore, it is imperative that offline\nevaluation setups are as realistic and as flawless as they can be.\nUnfortunately, evaluation flaws are quite common in recommender systems\nresearch nowadays, due to later works copying flawed evaluation setups from\ntheir predecessors without questioning their validity. In the hope of improving\nthe quality of offline evaluation of recommender systems, we discuss four of\nthese widespread flaws and why researchers should avoid them.",
+        "translated": ""
+    },
+    {
+        "title": "Scaling Session-Based Transformer Recommendations using Optimized\n  Negative Sampling and Loss Functions",
+        "url": "http://arxiv.org/abs/2307.14906v1",
+        "pub_date": "2023-07-27",
+        "summary": "This work introduces TRON, a scalable session-based Transformer Recommender\nusing Optimized Negative-sampling. Motivated by the scalability and performance\nlimitations of prevailing models such as SASRec and GRU4Rec+, TRON integrates\ntop-k negative sampling and listwise loss functions to enhance its\nrecommendation accuracy. Evaluations on relevant large-scale e-commerce\ndatasets show that TRON improves upon the recommendation quality of current\nmethods while maintaining training speeds similar to SASRec. A live A/B test\nyielded an 18.14% increase in click-through rate over SASRec, highlighting the\npotential of TRON in practical settings. For further research, we provide\naccess to our source code at https://github.com/otto-de/TRON and an anonymized\ndataset at https://github.com/otto-de/recsys-dataset.",
+        "translated": ""
+    },
+    {
+        "title": "Integrating Offline Reinforcement Learning with Transformers for\n  Sequential Recommendation",
+        "url": "http://arxiv.org/abs/2307.14450v1",
+        "pub_date": "2023-07-26",
+        "summary": "We consider the problem of sequential recommendation, where the current\nrecommendation is made based on past interactions. This recommendation task\nrequires efficient processing of the sequential data and aims to provide\nrecommendations that maximize the long-term reward. To this end, we train a\nfarsighted recommender by using an offline RL algorithm with the policy network\nin our model architecture that has been initialized from a pre-trained\ntransformer model. The pre-trained model leverages the superb ability of the\ntransformer to process sequential information. Compared to prior works that\nrely on online interaction via simulation, we focus on implementing a fully\noffline RL framework that is able to converge in a fast and stable way. Through\nextensive experiments on public datasets, we show that our method is robust\nacross various recommendation regimes, including e-commerce and movie\nsuggestions. Compared to state-of-the-art supervised learning algorithms, our\nalgorithm yields recommendations of higher quality, demonstrating the clear\nadvantage of combining RL and transformers.",
+        "translated": ""
+    },
+    {
+        "title": "Measuring Americanization: A Global Quantitative Study of Interest in\n  American Topics on Wikipedia",
+        "url": "http://arxiv.org/abs/2307.14401v1",
+        "pub_date": "2023-07-26",
+        "summary": "We conducted a global comparative analysis of the coverage of American topics\nin different language versions of Wikipedia, using over 90 million Wikidata\nitems and 40 million Wikipedia articles in 58 languages. Our study aimed to\ninvestigate whether Americanization is more or less dominant in different\nregions and cultures and to determine whether interest in American topics is\nuniversal.",
+        "translated": ""
     }
 ]

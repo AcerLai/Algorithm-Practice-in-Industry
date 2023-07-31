@@ -2679,5 +2679,33 @@
         "pub_date": "2023-07-26",
         "summary": "We conducted a global comparative analysis of the coverage of American topics\nin different language versions of Wikipedia, using over 90 million Wikidata\nitems and 40 million Wikipedia articles in 58 languages. Our study aimed to\ninvestigate whether Americanization is more or less dominant in different\nregions and cultures and to determine whether interest in American topics is\nuniversal.",
         "translated": ""
+    },
+    {
+        "title": "Framework to Automatically Determine the Quality of Open Data Catalogs",
+        "url": "http://arxiv.org/abs/2307.15464v1",
+        "pub_date": "2023-07-28",
+        "summary": "Data catalogs play a crucial role in modern data-driven organizations by\nfacilitating the discovery, understanding, and utilization of diverse data\nassets. However, ensuring their quality and reliability is complex, especially\nin open and large-scale data environments. This paper proposes a framework to\nautomatically determine the quality of open data catalogs, addressing the need\nfor efficient and reliable quality assessment mechanisms. Our framework can\nanalyze various core quality dimensions, such as accuracy, completeness,\nconsistency, scalability, and timeliness, offer several alternatives for the\nassessment of compatibility and similarity across such catalogs as well as the\nimplementation of a set of non-core quality dimensions such as provenance,\nreadability, and licensing. The goal is to empower data-driven organizations to\nmake informed decisions based on trustworthy and well-curated data assets. The\nsource code that illustrates our approach can be downloaded from\nhttps://www.github.com/jorge-martinez-gil/dataq/.",
+        "translated": ""
+    },
+    {
+        "title": "Toward Transparent Sequence Models with Model-Based Tree Markov Model",
+        "url": "http://arxiv.org/abs/2307.15367v1",
+        "pub_date": "2023-07-28",
+        "summary": "In this study, we address the interpretability issue in complex, black-box\nMachine Learning models applied to sequence data. We introduce the Model-Based\ntree Hidden Semi-Markov Model (MOB-HSMM), an inherently interpretable model\naimed at detecting high mortality risk events and discovering hidden patterns\nassociated with the mortality risk in Intensive Care Units (ICU). This model\nleverages knowledge distilled from Deep Neural Networks (DNN) to enhance\npredictive performance while offering clear explanations. Our experimental\nresults indicate the improved performance of Model-Based trees (MOB trees) via\nemploying LSTM for learning sequential patterns, which are then transferred to\nMOB trees. Integrating MOB trees with the Hidden Semi-Markov Model (HSMM) in\nthe MOB-HSMM enables uncovering potential and explainable sequences using\navailable information.",
+        "translated": ""
+    },
+    {
+        "title": "Staging E-Commerce Products for Online Advertising using Retrieval\n  Assisted Image Generation",
+        "url": "http://arxiv.org/abs/2307.15326v1",
+        "pub_date": "2023-07-28",
+        "summary": "Online ads showing e-commerce products typically rely on the product images\nin a catalog sent to the advertising platform by an e-commerce platform. In the\nbroader ads industry such ads are called dynamic product ads (DPA). It is\ncommon for DPA catalogs to be in the scale of millions (corresponding to the\nscale of products which can be bought from the e-commerce platform). However,\nnot all product images in the catalog may be appealing when directly\nre-purposed as an ad image, and this may lead to lower click-through rates\n(CTRs). In particular, products just placed against a solid background may not\nbe as enticing and realistic as a product staged in a natural environment. To\naddress such shortcomings of DPA images at scale, we propose a generative\nadversarial network (GAN) based approach to generate staged backgrounds for\nun-staged product images. Generating the entire staged background is a\nchallenging task susceptible to hallucinations. To get around this, we\nintroduce a simpler approach called copy-paste staging using retrieval assisted\nGANs. In copy paste staging, we first retrieve (from the catalog) staged\nproducts similar to the un-staged input product, and then copy-paste the\nbackground of the retrieved product in the input image. A GAN based in-painting\nmodel is used to fill the holes left after this copy-paste operation. We show\nthe efficacy of our copy-paste staging method via offline metrics, and human\nevaluation. In addition, we show how our staging approach can enable animations\nof moving products leading to a video ad from a product image.",
+        "translated": ""
+    },
+    {
+        "title": "Reconciling the accuracy-diversity trade-off in recommendations",
+        "url": "http://arxiv.org/abs/2307.15142v1",
+        "pub_date": "2023-07-27",
+        "summary": "In recommendation settings, there is an apparent trade-off between the goals\nof accuracy (to recommend items a user is most likely to want) and diversity\n(to recommend items representing a range of categories). As such, real-world\nrecommender systems often explicitly incorporate diversity separately from\naccuracy. This approach, however, leaves a basic question unanswered: Why is\nthere a trade-off in the first place?\n  We show how the trade-off can be explained via a user's consumption\nconstraints -- users typically only consume a few of the items they are\nrecommended. In a stylized model we introduce, objectives that account for this\nconstraint induce diverse recommendations, while objectives that do not account\nfor this constraint induce homogeneous recommendations. This suggests that\naccuracy and diversity appear misaligned because standard accuracy metrics do\nnot consider consumption constraints. Our model yields precise and\ninterpretable characterizations of diversity in different settings, giving\npractical insights into the design of diverse recommendations.",
+        "translated": ""
     }
 ]

@@ -2896,5 +2896,68 @@
         "pub_date": "2023-08-03",
         "summary": "Using multiple user representations (MUR) to model user behavior instead of a\nsingle user representation (SUR) has been shown to improve personalization in\nrecommendation systems. However, the performance gains observed with MUR can be\nsensitive to the skewness in the item and/or user interest distribution. When\nthe data distribution is highly skewed, the gains observed by learning multiple\nrepresentations diminish since the model dominates on head items/interests,\nleading to poor performance on tail items. Robustness to data sparsity is\ntherefore essential for MUR-based approaches to achieve good performance for\nrecommendations. Yet, research in MUR and data imbalance have largely been done\nindependently. In this paper, we delve deeper into the shortcomings of MUR\ninferred from imbalanced data distributions. We make several contributions: (1)\nUsing synthetic datasets, we demonstrate the sensitivity of MUR with respect to\ndata imbalance, (2) To improve MUR for tail items, we propose an iterative\ndensity weighting scheme (IDW) with user tower calibration to mitigate the\neffect of training over long-tail distribution on personalization, and (3)\nThrough extensive experiments on three real-world benchmarks, we demonstrate\nIDW outperforms other alternatives that address data imbalance.",
         "translated": ""
+    },
+    {
+        "title": "Adaptive Preferential Attached kNN Graph With Distribution-Awareness",
+        "url": "http://arxiv.org/abs/2308.02442v1",
+        "pub_date": "2023-08-04",
+        "summary": "Graph-based kNN algorithms have garnered widespread popularity for machine\nlearning tasks, due to their simplicity and effectiveness. However, the\nconventional kNN graph's reliance on a fixed value of k can hinder its\nperformance, especially in scenarios involving complex data distributions.\nMoreover, like other classification models, the presence of ambiguous samples\nalong decision boundaries often presents a challenge, as they are more prone to\nincorrect classification. To address these issues, we propose the Preferential\nAttached k-Nearest Neighbors Graph (paNNG), which combines adaptive kNN with\ndistribution-based graph construction. By incorporating distribution\ninformation, paNNG can significantly improve performance for ambiguous samples\nby \"pulling\" them towards their original classes and hence enable enhanced\noverall accuracy and generalization capability. Through rigorous evaluations on\ndiverse benchmark datasets, paNNG outperforms state-of-the-art algorithms,\nshowcasing its adaptability and efficacy across various real-world scenarios.",
+        "translated": ""
+    },
+    {
+        "title": "RAHNet: Retrieval Augmented Hybrid Network for Long-tailed Graph\n  Classification",
+        "url": "http://arxiv.org/abs/2308.02335v1",
+        "pub_date": "2023-08-04",
+        "summary": "Graph classification is a crucial task in many real-world multimedia\napplications, where graphs can represent various multimedia data types such as\nimages, videos, and social networks. Previous efforts have applied graph neural\nnetworks (GNNs) in balanced situations where the class distribution is\nbalanced. However, real-world data typically exhibit long-tailed class\ndistributions, resulting in a bias towards the head classes when using GNNs and\nlimited generalization ability over the tail classes. Recent approaches mainly\nfocus on re-balancing different classes during model training, which fails to\nexplicitly introduce new knowledge and sacrifices the performance of the head\nclasses. To address these drawbacks, we propose a novel framework called\nRetrieval Augmented Hybrid Network (RAHNet) to jointly learn a robust feature\nextractor and an unbiased classifier in a decoupled manner. In the feature\nextractor training stage, we develop a graph retrieval module to search for\nrelevant graphs that directly enrich the intra-class diversity for the tail\nclasses. Moreover, we innovatively optimize a category-centered supervised\ncontrastive loss to obtain discriminative representations, which is more\nsuitable for long-tailed scenarios. In the classifier fine-tuning stage, we\nbalance the classifier weights with two weight regularization techniques, i.e.,\nMax-norm and weight decay. Experiments on various popular benchmarks verify the\nsuperiority of the proposed method against state-of-the-art approaches.",
+        "translated": ""
+    },
+    {
+        "title": "Learning to Select the Relevant History Turns in Conversational Question\n  Answering",
+        "url": "http://arxiv.org/abs/2308.02294v1",
+        "pub_date": "2023-08-04",
+        "summary": "The increasing demand for the web-based digital assistants has given a rapid\nrise in the interest of the Information Retrieval (IR) community towards the\nfield of conversational question answering (ConvQA). However, one of the\ncritical aspects of ConvQA is the effective selection of conversational history\nturns to answer the question at hand. The dependency between relevant history\nselection and correct answer prediction is an intriguing but under-explored\narea. The selected relevant context can better guide the system so as to where\nexactly in the passage to look for an answer. Irrelevant context, on the other\nhand, brings noise to the system, thereby resulting in a decline in the model's\nperformance. In this paper, we propose a framework, DHS-ConvQA (Dynamic History\nSelection in Conversational Question Answering), that first generates the\ncontext and question entities for all the history turns, which are then pruned\non the basis of similarity they share in common with the question at hand. We\nalso propose an attention-based mechanism to re-rank the pruned terms based on\ntheir calculated weights of how useful they are in answering the question. In\nthe end, we further aid the model by highlighting the terms in the re-ranked\nconversational history using a binary classification task and keeping the\nuseful terms (predicted as 1) and ignoring the irrelevant terms (predicted as\n0). We demonstrate the efficacy of our proposed framework with extensive\nexperimental results on CANARD and QuAC -- the two popularly utilized datasets\nin ConvQA. We demonstrate that selecting relevant turns works better than\nrewriting the original question. We also investigate how adding the irrelevant\nhistory turns negatively impacts the model's performance and discuss the\nresearch challenges that demand more attention from the IR community.",
+        "translated": ""
+    },
+    {
+        "title": "Optimally Computing Compressed Indexing Arrays Based on the Compact\n  Directed Acyclic Word Graph",
+        "url": "http://arxiv.org/abs/2308.02269v1",
+        "pub_date": "2023-08-04",
+        "summary": "In this paper, we present the first study of the computational complexity of\nconverting an automata-based text index structure, called the Compact Directed\nAcyclic Word Graph (CDAWG), of size $e$ for a text $T$ of length $n$ into other\ntext indexing structures for the same text, suitable for highly repetitive\ntexts: the run-length BWT of size $r$, the irreducible PLCP array of size $r$,\nand the quasi-irreducible LPF array of size $e$, as well as the lex-parse of\nsize $O(r)$ and the LZ77-parse of size $z$, where $r, z \\le e$. As main\nresults, we showed that the above structures can be optimally computed from\neither the CDAWG for $T$ stored in read-only memory or its self-index version\nof size $e$ without a text in $O(e)$ worst-case time and words of working\nspace. To obtain the above results, we devised techniques for enumerating a\nparticular subset of suffixes in the lexicographic and text orders using the\nforward and backward search on the CDAWG by extending the results by\nBelazzougui et al. in 2015.",
+        "translated": ""
+    },
+    {
+        "title": "Finding Tori: Self-supervised Learning for Analyzing Korean Folk Song",
+        "url": "http://arxiv.org/abs/2308.02249v1",
+        "pub_date": "2023-08-04",
+        "summary": "In this paper, we introduce a computational analysis of the field recording\ndataset of approximately 700 hours of Korean folk songs, which were recorded\naround 1980-90s. Because most of the songs were sung by non-expert musicians\nwithout accompaniment, the dataset provides several challenges. To address this\nchallenge, we utilized self-supervised learning with convolutional neural\nnetwork based on pitch contour, then analyzed how the musical concept of tori,\na classification system defined by a specific scale, ornamental notes, and an\nidiomatic melodic contour, is captured by the model. The experimental result\nshows that our approach can better capture the characteristics of tori compared\nto traditional pitch histograms. Using our approaches, we have examined how\nmusical discussions proposed in existing academia manifest in the actual field\nrecordings of Korean folk songs.",
+        "translated": ""
+    },
+    {
+        "title": "Towards Personalized Prompt-Model Retrieval for Generative\n  Recommendation",
+        "url": "http://arxiv.org/abs/2308.02205v1",
+        "pub_date": "2023-08-04",
+        "summary": "Recommender Systems are built to retrieve relevant items to satisfy users'\ninformation needs. The candidate corpus usually consists of a finite set of\nitems that are ready to be served, such as videos, products, or articles. With\nrecent advances in Generative AI such as GPT and Diffusion models, a new form\nof recommendation task is yet to be explored where items are to be created by\ngenerative models with personalized prompts. Taking image generation as an\nexample, with a single prompt from the user and access to a generative model,\nit is possible to generate hundreds of new images in a few minutes. How shall\nwe attain personalization in the presence of \"infinite\" items? In this\npreliminary study, we propose a two-stage framework, namely Prompt-Model\nRetrieval and Generated Item Ranking, to approach this new task formulation. We\nrelease GEMRec-18K, a prompt-model interaction dataset with 18K images\ngenerated by 200 publicly-available generative models paired with a diverse set\nof 90 textual prompts. Our findings demonstrate the promise of generative model\nrecommendation as a novel personalization problem and the limitations of\nexisting evaluation metrics. We highlight future directions for the RecSys\ncommunity to advance towards generative recommender systems. Our code and\ndataset are available at https://github.com/MAPS-research/GEMRec.",
+        "translated": ""
+    },
+    {
+        "title": "Incorporating Recklessness to Collaborative Filtering based Recommender\n  Systems",
+        "url": "http://arxiv.org/abs/2308.02058v1",
+        "pub_date": "2023-08-03",
+        "summary": "Recommender systems that include some reliability measure of their\npredictions tend to be more conservative in forecasting, due to their\nconstraint to preserve reliability. This leads to a significant drop in the\ncoverage and novelty that these systems can provide. In this paper, we propose\nthe inclusion of a new term in the learning process of matrix\nfactorization-based recommender systems, called recklessness, which enables the\ncontrol of the risk level desired when making decisions about the reliability\nof a prediction. Experimental results demonstrate that recklessness not only\nallows for risk regulation but also improves the quantity and quality of\npredictions provided by the recommender system.",
+        "translated": ""
+    },
+    {
+        "title": "Seasonality Based Reranking of E-commerce Autocomplete Using Natural\n  Language Queries",
+        "url": "http://arxiv.org/abs/2308.02055v1",
+        "pub_date": "2023-08-03",
+        "summary": "Query autocomplete (QAC) also known as typeahead, suggests list of complete\nqueries as user types prefix in the search box. It is one of the key features\nof modern search engines specially in e-commerce. One of the goals of typeahead\nis to suggest relevant queries to users which are seasonally important. In this\npaper we propose a neural network based natural language processing (NLP)\nalgorithm to incorporate seasonality as a signal and present end to end\nevaluation of the QAC ranking model. Incorporating seasonality into\nautocomplete ranking model can improve autocomplete relevance and business\nmetric.",
+        "translated": ""
+    },
+    {
+        "title": "Domain specificity and data efficiency in typo tolerant spell checkers:\n  the case of search in online marketplaces",
+        "url": "http://arxiv.org/abs/2308.01976v1",
+        "pub_date": "2023-08-03",
+        "summary": "Typographical errors are a major source of frustration for visitors of online\nmarketplaces. Because of the domain-specific nature of these marketplaces and\nthe very short queries users tend to search for, traditional spell cheking\nsolutions do not perform well in correcting typos. We present a data\naugmentation method to address the lack of annotated typo data and train a\nrecurrent neural network to learn context-limited domain-specific embeddings.\nThose embeddings are deployed in a real-time inferencing API for the Microsoft\nAppSource marketplace to find the closest match between a misspelled user query\nand the available product names. Our data efficient solution shows that\ncontrolled high quality synthetic data may be a powerful tool especially\nconsidering the current climate of large language models which rely on\nprohibitively huge and often uncontrolled datasets.",
+        "translated": ""
     }
 ]

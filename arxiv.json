@@ -6746,5 +6746,75 @@
         "pub_date": "2023-11-11",
         "summary": "Efficient and accurate product relevance assessment is critical for user\nexperiences and business success. Training a proficient relevance assessment\nmodel requires high-quality query-product pairs, often obtained through\nnegative sampling strategies. Unfortunately, current methods introduce pooling\nbias by mistakenly sampling false negatives, diminishing performance and\nbusiness impact. To address this, we present Bias-mitigating Hard Negative\nSampling (BHNS), a novel negative sampling strategy tailored to identify and\nadjust for false negatives, building upon our original False Negative\nEstimation algorithm. Our experiments in the Instacart search setting confirm\nBHNS as effective for practical e-commerce use. Furthermore, comparative\nanalyses on public dataset showcase its domain-agnostic potential for diverse\napplications.",
         "translated": ""
+    },
+    {
+        "title": "Retrieve and Copy: Scaling ASR Personalization to Large Catalogs",
+        "url": "http://arxiv.org/abs/2311.08402v1",
+        "pub_date": "2023-11-14",
+        "summary": "Personalization of automatic speech recognition (ASR) models is a widely\nstudied topic because of its many practical applications. Most recently,\nattention-based contextual biasing techniques are used to improve the\nrecognition of rare words and domain specific entities. However, due to\nperformance constraints, the biasing is often limited to a few thousand\nentities, restricting real-world usability. To address this, we first propose a\n\"Retrieve and Copy\" mechanism to improve latency while retaining the accuracy\neven when scaled to a large catalog. We also propose a training strategy to\novercome the degradation in recall at such scale due to an increased number of\nconfusing entities. Overall, our approach achieves up to 6% more Word Error\nRate reduction (WERR) and 3.6% absolute improvement in F1 when compared to a\nstrong baseline. Our method also allows for large catalog sizes of up to 20K\nwithout significantly affecting WER and F1-scores, while achieving at least 20%\ninference speedup per acoustic frame.",
+        "translated": ""
+    },
+    {
+        "title": "ChoralSynth: Synthetic Dataset of Choral Singing",
+        "url": "http://arxiv.org/abs/2311.08350v1",
+        "pub_date": "2023-11-14",
+        "summary": "Choral singing, a widely practiced form of ensemble singing, lacks\ncomprehensive datasets in the realm of Music Information Retrieval (MIR)\nresearch, due to challenges arising from the requirement to curate multitrack\nrecordings. To address this, we devised a novel methodology, leveraging\nstate-of-the-art synthesizers to create and curate quality renditions. The\nscores were sourced from Choral Public Domain Library(CPDL). This work is done\nin collaboration with a diverse team of musicians, software engineers and\nresearchers. The resulting dataset, complete with its associated metadata, and\nmethodology is released as part of this work, opening up new avenues for\nexploration and advancement in the field of singing voice research.",
+        "translated": ""
+    },
+    {
+        "title": "Inverse Learning with Extremely Sparse Feedback for Recommendation",
+        "url": "http://arxiv.org/abs/2311.08302v1",
+        "pub_date": "2023-11-14",
+        "summary": "Modern personalized recommendation services often rely on user feedback,\neither explicit or implicit, to improve the quality of services. Explicit\nfeedback refers to behaviors like ratings, while implicit feedback refers to\nbehaviors like user clicks. However, in the scenario of full-screen video\nviewing experiences like Tiktok and Reels, the click action is absent,\nresulting in unclear feedback from users, hence introducing noises in modeling\ntraining. Existing approaches on de-noising recommendation mainly focus on\npositive instances while ignoring the noise in a large amount of sampled\nnegative feedback. In this paper, we propose a meta-learning method to annotate\nthe unlabeled data from loss and gradient perspectives, which considers the\nnoises in both positive and negative instances. Specifically, we first propose\nan Inverse Dual Loss (IDL) to boost the true label learning and prevent the\nfalse label learning. Then we further propose an Inverse Gradient (IG) method\nto explore the correct updating gradient and adjust the updating based on\nmeta-learning. Finally, we conduct extensive experiments on both benchmark and\nindustrial datasets where our proposed method can significantly improve AUC by\n9.25% against state-of-the-art methods. Further analysis verifies the proposed\ninverse learning framework is model-agnostic and can improve a variety of\nrecommendation backbones. The source code, along with the best hyper-parameter\nsettings, is available at this link:\nhttps://github.com/Guanyu-Lin/InverseLearning.",
+        "translated": ""
+    },
+    {
+        "title": "Mixed Attention Network for Cross-domain Sequential Recommendation",
+        "url": "http://arxiv.org/abs/2311.08272v1",
+        "pub_date": "2023-11-14",
+        "summary": "In modern recommender systems, sequential recommendation leverages\nchronological user behaviors to make effective next-item suggestions, which\nsuffers from data sparsity issues, especially for new users. One promising line\nof work is the cross-domain recommendation, which trains models with data\nacross multiple domains to improve the performance in data-scarce domains.\nRecent proposed cross-domain sequential recommendation models such as PiNet and\nDASL have a common drawback relying heavily on overlapped users in different\ndomains, which limits their usage in practical recommender systems. In this\npaper, we propose a Mixed Attention Network (MAN) with local and global\nattention modules to extract the domain-specific and cross-domain information.\nFirstly, we propose a local/global encoding layer to capture the\ndomain-specific/cross-domain sequential pattern. Then we propose a mixed\nattention layer with item similarity attention, sequence-fusion attention, and\ngroup-prototype attention to capture the local/global item similarity, fuse the\nlocal/global item sequence, and extract the user groups across different\ndomains, respectively. Finally, we propose a local/global prediction layer to\nfurther evolve and combine the domain-specific and cross-domain interests.\nExperimental results on two real-world datasets (each with two domains)\ndemonstrate the superiority of our proposed model. Further study also\nillustrates that our proposed method and components are model-agnostic and\neffective, respectively. The code and data are available at\nhttps://github.com/Guanyu-Lin/MAN.",
+        "translated": ""
+    },
+    {
+        "title": "REST: Retrieval-Based Speculative Decoding",
+        "url": "http://arxiv.org/abs/2311.08252v1",
+        "pub_date": "2023-11-14",
+        "summary": "We introduce Retrieval-Based Speculative Decoding (REST), a novel algorithm\ndesigned to speed up language model generation. The key insight driving the\ndevelopment of REST is the observation that the process of text generation\noften includes certain common phases and patterns. Unlike previous methods that\nrely on a draft language model for speculative decoding, REST harnesses the\npower of retrieval to generate draft tokens. This method draws from the\nreservoir of existing knowledge, retrieving and employing relevant tokens based\non the current context. Its plug-and-play nature allows for seamless\nintegration and acceleration of any language models, all without necessitating\nadditional training. When benchmarked on 7B and 13B language models in a\nsingle-batch setting, REST achieves a significant speedup of 1.62X to 2.36X on\ncode or text generation. The code of REST is available at\nhttps://github.com/FasterDecoding/REST.",
+        "translated": ""
+    },
+    {
+        "title": "Exploring Semi-supervised Hierarchical Stacked Encoder for Legal\n  Judgement Prediction",
+        "url": "http://arxiv.org/abs/2311.08103v1",
+        "pub_date": "2023-11-14",
+        "summary": "Predicting the judgment of a legal case from its unannotated case facts is a\nchallenging task. The lengthy and non-uniform document structure poses an even\ngreater challenge in extracting information for decision prediction. In this\nwork, we explore and propose a two-level classification mechanism; both\nsupervised and unsupervised; by using domain-specific pre-trained BERT to\nextract information from long documents in terms of sentence embeddings further\nprocessing with transformer encoder layer and use unsupervised clustering to\nextract hidden labels from these embeddings to better predict a judgment of a\nlegal case. We conduct several experiments with this mechanism and see higher\nperformance gains than the previously proposed methods on the ILDC dataset. Our\nexperimental results also show the importance of domain-specific pre-training\nof Transformer Encoders in legal information processing.",
+        "translated": ""
+    },
+    {
+        "title": "TempTabQA: Temporal Question Answering for Semi-Structured Tables",
+        "url": "http://arxiv.org/abs/2311.08002v1",
+        "pub_date": "2023-11-14",
+        "summary": "Semi-structured data, such as Infobox tables, often include temporal\ninformation about entities, either implicitly or explicitly. Can current NLP\nsystems reason about such information in semi-structured tables? To tackle this\nquestion, we introduce the task of temporal question answering on\nsemi-structured tables. We present a dataset, TempTabQA, which comprises 11,454\nquestion-answer pairs extracted from 1,208 Wikipedia Infobox tables spanning\nmore than 90 distinct domains. Using this dataset, we evaluate several\nstate-of-the-art models for temporal reasoning. We observe that even the\ntop-performing LLMs lag behind human performance by more than 13.5 F1 points.\nGiven these results, our dataset has the potential to serve as a challenging\nbenchmark to improve the temporal reasoning capabilities of NLP models.",
+        "translated": ""
+    },
+    {
+        "title": "Text Retrieval with Multi-Stage Re-Ranking Models",
+        "url": "http://arxiv.org/abs/2311.07994v1",
+        "pub_date": "2023-11-14",
+        "summary": "The text retrieval is the task of retrieving similar documents to a search\nquery, and it is important to improve retrieval accuracy while maintaining a\ncertain level of retrieval speed. Existing studies have reported accuracy\nimprovements using language models, but many of these do not take into account\nthe reduction in search speed that comes with increased performance. In this\nstudy, we propose three-stage re-ranking model using model ensembles or larger\nlanguage models to improve search accuracy while minimizing the search delay.\nWe ranked the documents by BM25 and language models, and then re-ranks by a\nmodel ensemble or a larger language model for documents with high similarity to\nthe query. In our experiments, we train the MiniLM language model on the\nMS-MARCO dataset and evaluate it in a zero-shot setting. Our proposed method\nachieves higher retrieval accuracy while reducing the retrieval speed decay.",
+        "translated": ""
+    },
+    {
+        "title": "Towards a Technical Debt for Recommender System",
+        "url": "http://arxiv.org/abs/2311.07947v1",
+        "pub_date": "2023-11-14",
+        "summary": "Balancing the management of technical debt within recommender systems\nrequires effectively juggling the introduction of new features with the ongoing\nmaintenance and enhancement of the current system. Within the realm of\nrecommender systems, technical debt encompasses the trade-offs and expedient\nchoices made during the development and upkeep of the recommendation system,\nwhich could potentially have adverse effects on its long-term performance,\nscalability, and maintainability. In this vision paper, our objective is to\nkickstart a research direction regarding Technical Debt in Recommender Systems.\nWe identified 15 potential factors, along with detailed explanations outlining\nwhy it is advisable to consider them.",
+        "translated": ""
+    },
+    {
+        "title": "Evaluating LLMs on Document-Based QA: Exact Answer Selection and\n  Numerical Extraction using Cogtale datase",
+        "url": "http://arxiv.org/abs/2311.07878v1",
+        "pub_date": "2023-11-14",
+        "summary": "Document-based Question-Answering (QA) tasks are crucial for precise\ninformation retrieval. While some existing work focus on evaluating large\nlanguage model's performance on retrieving and answering questions from\ndocuments, assessing the LLMs' performance on QA types that require exact\nanswer selection from predefined options and numerical extraction is yet to be\nfully assessed. In this paper, we specifically focus on this underexplored\ncontext and conduct empirical analysis of LLMs (GPT-4 and GPT 3.5) on question\ntypes, including single-choice, yes-no, multiple-choice, and number extraction\nquestions from documents. We use the Cogtale dataset for evaluation, which\nprovide human expert-tagged responses, offering a robust benchmark for\nprecision and factual grounding. We found that LLMs, particularly GPT-4, can\nprecisely answer many single-choice and yes-no questions given relevant\ncontext, demonstrating their efficacy in information retrieval tasks. However,\ntheir performance diminishes when confronted with multiple-choice and number\nextraction formats, lowering the overall performance of the model on this task,\nindicating that these models may not be reliable for the task. This limits the\napplications of LLMs on applications demanding precise information extraction\nfrom documents, such as meta-analysis tasks. However, these findings hinge on\nthe assumption that the retrievers furnish pertinent context necessary for\naccurate responses, emphasizing the need for further research on the efficacy\nof retriever mechanisms in enhancing question-answering performance. Our work\noffers a framework for ongoing dataset evaluation, ensuring that LLM\napplications for information retrieval and document analysis continue to meet\nevolving standards.",
+        "translated": ""
     }
 ]

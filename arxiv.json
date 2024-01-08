@@ -8419,5 +8419,26 @@
         "pub_date": "2024-01-03",
         "summary": "In the ever-changing and dynamic realm of high-end fashion marketplaces,\nproviding accurate and personalized size recommendations has become a critical\naspect. Meeting customer expectations in this regard is not only crucial for\nensuring their satisfaction but also plays a pivotal role in driving customer\nretention, which is a key metric for the success of any fashion retailer. We\npropose a novel sequence classification approach to address this problem,\nintegrating implicit (Add2Bag) and explicit (ReturnReason) user signals. Our\napproach comprises two distinct models: one employs LSTMs to encode the user\nsignals, while the other leverages an Attention mechanism. Our best model\noutperforms SFNet, improving accuracy by 45.7%. By using Add2Bag interactions\nwe increase the user coverage by 24.5% when compared with only using Orders.\nMoreover, we evaluate the models' usability in real-time recommendation\nscenarios by conducting experiments to measure their latency performance.",
         "translated": ""
+    },
+    {
+        "title": "Plug-in Diffusion Model for Sequential Recommendation",
+        "url": "http://arxiv.org/abs/2401.02913v1",
+        "pub_date": "2024-01-05",
+        "summary": "Pioneering efforts have verified the effectiveness of the diffusion models in\nexploring the informative uncertainty for recommendation. Considering the\ndifference between recommendation and image synthesis tasks, existing methods\nhave undertaken tailored refinements to the diffusion and reverse process.\nHowever, these approaches typically use the highest-score item in corpus for\nuser interest prediction, leading to the ignorance of the user's generalized\npreference contained within other items, thereby remaining constrained by the\ndata sparsity issue. To address this issue, this paper presents a novel Plug-in\nDiffusion Model for Recommendation (PDRec) framework, which employs the\ndiffusion model as a flexible plugin to jointly take full advantage of the\ndiffusion-generating user preferences on all items. Specifically, PDRec first\ninfers the users' dynamic preferences on all items via a time-interval\ndiffusion model and proposes a Historical Behavior Reweighting (HBR) mechanism\nto identify the high-quality behaviors and suppress noisy behaviors. In\naddition to the observed items, PDRec proposes a Diffusion-based Positive\nAugmentation (DPA) strategy to leverage the top-ranked unobserved items as the\npotential positive samples, bringing in informative and diverse soft signals to\nalleviate data sparsity. To alleviate the false negative sampling issue, PDRec\nemploys Noise-free Negative Sampling (NNS) to select stable negative samples\nfor ensuring effective model optimization. Extensive experiments and analyses\non four datasets have verified the superiority of the proposed PDRec over the\nstate-of-the-art baselines and showcased the universality of PDRec as a\nflexible plugin for commonly-used sequential encoders in different\nrecommendation scenarios. The code is available in\nhttps://github.com/hulkima/PDRec.",
+        "translated": ""
+    },
+    {
+        "title": "Let's Get It Started: Fostering the Discoverability of New Releases on\n  Deezer",
+        "url": "http://arxiv.org/abs/2401.02827v1",
+        "pub_date": "2024-01-05",
+        "summary": "This paper presents our recent initiatives to foster the discoverability of\nnew releases on the music streaming service Deezer. After introducing our\nsearch and recommendation features dedicated to new releases, we outline our\nshift from editorial to personalized release suggestions using cold start\nembeddings and contextual bandits. Backed by online experiments, we discuss the\nadvantages of this shift in terms of recommendation quality and exposure of new\nreleases on the service.",
+        "translated": ""
+    },
+    {
+        "title": "DocGraphLM: Documental Graph Language Model for Information Extraction",
+        "url": "http://arxiv.org/abs/2401.02823v1",
+        "pub_date": "2024-01-05",
+        "summary": "Advances in Visually Rich Document Understanding (VrDU) have enabled\ninformation extraction and question answering over documents with complex\nlayouts. Two tropes of architectures have emerged -- transformer-based models\ninspired by LLMs, and Graph Neural Networks. In this paper, we introduce\nDocGraphLM, a novel framework that combines pre-trained language models with\ngraph semantics. To achieve this, we propose 1) a joint encoder architecture to\nrepresent documents, and 2) a novel link prediction approach to reconstruct\ndocument graphs. DocGraphLM predicts both directions and distances between\nnodes using a convergent joint loss function that prioritizes neighborhood\nrestoration and downweighs distant node detection. Our experiments on three\nSotA datasets show consistent improvement on IE and QA tasks with the adoption\nof graph features. Moreover, we report that adopting the graph features\naccelerates convergence in the learning process during training, despite being\nsolely constructed through link prediction.",
+        "translated": ""
     }
 ]

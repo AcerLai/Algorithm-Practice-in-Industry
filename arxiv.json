@@ -8440,5 +8440,75 @@
         "pub_date": "2024-01-05",
         "summary": "Advances in Visually Rich Document Understanding (VrDU) have enabled\ninformation extraction and question answering over documents with complex\nlayouts. Two tropes of architectures have emerged -- transformer-based models\ninspired by LLMs, and Graph Neural Networks. In this paper, we introduce\nDocGraphLM, a novel framework that combines pre-trained language models with\ngraph semantics. To achieve this, we propose 1) a joint encoder architecture to\nrepresent documents, and 2) a novel link prediction approach to reconstruct\ndocument graphs. DocGraphLM predicts both directions and distances between\nnodes using a convergent joint loss function that prioritizes neighborhood\nrestoration and downweighs distant node detection. Our experiments on three\nSotA datasets show consistent improvement on IE and QA tasks with the adoption\nof graph features. Moreover, we report that adopting the graph features\naccelerates convergence in the learning process during training, despite being\nsolely constructed through link prediction.",
         "translated": ""
+    },
+    {
+        "title": "Variance Reduction in Ratio Metrics for Efficient Online Experiments",
+        "url": "http://arxiv.org/abs/2401.04062v1",
+        "pub_date": "2024-01-08",
+        "summary": "Online controlled experiments, such as A/B-tests, are commonly used by modern\ntech companies to enable continuous system improvements. Despite their\nparamount importance, A/B-tests are expensive: by their very definition, a\npercentage of traffic is assigned an inferior system variant. To ensure\nstatistical significance on top-level metrics, online experiments typically run\nfor several weeks. Even then, a considerable amount of experiments will lead to\ninconclusive results (i.e. false negatives, or type-II error). The main culprit\nfor this inefficiency is the variance of the online metrics. Variance reduction\ntechniques have been proposed in the literature, but their direct applicability\nto commonly used ratio metrics (e.g. click-through rate or user retention) is\nlimited.\n  In this work, we successfully apply variance reduction techniques to ratio\nmetrics on a large-scale short-video platform: ShareChat. Our empirical results\nshow that we can either improve A/B-test confidence in 77% of cases, or can\nretain the same level of confidence with 30% fewer data points. Importantly, we\nshow that the common approach of including as many covariates as possible in\nregression is counter-productive, highlighting that control variates based on\nGradient-Boosted Decision Tree predictors are most effective. We discuss the\npracticalities of implementing these methods at scale and showcase the cost\nreduction they beget.",
+        "translated": ""
+    },
+    {
+        "title": "Unveiling Bias in Fairness Evaluations of Large Language Models: A\n  Critical Literature Review of Music and Movie Recommendation Systems",
+        "url": "http://arxiv.org/abs/2401.04057v1",
+        "pub_date": "2024-01-08",
+        "summary": "The rise of generative artificial intelligence, particularly Large Language\nModels (LLMs), has intensified the imperative to scrutinize fairness alongside\naccuracy. Recent studies have begun to investigate fairness evaluations for\nLLMs within domains such as recommendations. Given that personalization is an\nintrinsic aspect of recommendation systems, its incorporation into fairness\nassessments is paramount. Yet, the degree to which current fairness evaluation\nframeworks account for personalization remains unclear. Our comprehensive\nliterature review aims to fill this gap by examining how existing frameworks\nhandle fairness evaluations of LLMs, with a focus on the integration of\npersonalization factors. Despite an exhaustive collection and analysis of\nrelevant works, we discovered that most evaluations overlook personalization, a\ncritical facet of recommendation systems, thereby inadvertently perpetuating\nunfair practices. Our findings shed light on this oversight and underscore the\nurgent need for more nuanced fairness evaluations that acknowledge\npersonalization. Such improvements are vital for fostering equitable\ndevelopment within the AI community.",
+        "translated": ""
+    },
+    {
+        "title": "Sparse Meets Dense: A Hybrid Approach to Enhance Scientific Document\n  Retrieval",
+        "url": "http://arxiv.org/abs/2401.04055v1",
+        "pub_date": "2024-01-08",
+        "summary": "Traditional information retrieval is based on sparse bag-of-words vector\nrepresentations of documents and queries. More recent deep-learning approaches\nhave used dense embeddings learned using a transformer-based large language\nmodel. We show that on a classic benchmark on scientific document retrieval in\nthe medical domain of cystic fibrosis, that both of these models perform\nroughly equivalently. Notably, dense vectors from the state-of-the-art SPECTER2\nmodel do not significantly enhance performance. However, a hybrid model that we\npropose combining these methods yields significantly better results,\nunderscoring the merits of integrating classical and contemporary deep learning\ntechniques in information retrieval in the domain of specialized scientific\ndocuments.",
+        "translated": ""
+    },
+    {
+        "title": "Learning-to-Rank with Nested Feedback",
+        "url": "http://arxiv.org/abs/2401.04053v1",
+        "pub_date": "2024-01-08",
+        "summary": "Many platforms on the web present ranked lists of content to users, typically\noptimized for engagement-, satisfaction- or retention- driven metrics. Advances\nin the Learning-to-Rank (LTR) research literature have enabled rapid growth in\nthis application area. Several popular interfaces now include nested lists,\nwhere users can enter a 2nd-level feed via any given 1st-level item. Naturally,\nthis has implications for evaluation metrics, objective functions, and the\nranking policies we wish to learn. We propose a theoretically grounded method\nto incorporate 2nd-level feedback into any 1st-level ranking model. Online\nexperiments on a large-scale recommendation system confirm our theoretical\nfindings.",
+        "translated": ""
+    },
+    {
+        "title": "The Impact of Differential Privacy on Recommendation Accuracy and\n  Popularity Bias",
+        "url": "http://arxiv.org/abs/2401.03883v1",
+        "pub_date": "2024-01-08",
+        "summary": "Collaborative filtering-based recommender systems leverage vast amounts of\nbehavioral user data, which poses severe privacy risks. Thus, often, random\nnoise is added to the data to ensure Differential Privacy (DP). However, to\ndate, it is not well understood, in which ways this impacts personalized\nrecommendations. In this work, we study how DP impacts recommendation accuracy\nand popularity bias, when applied to the training data of state-of-the-art\nrecommendation models. Our findings are three-fold: First, we find that nearly\nall users' recommendations change when DP is applied. Second, recommendation\naccuracy drops substantially while recommended item popularity experiences a\nsharp increase, suggesting that popularity bias worsens. Third, we find that DP\nexacerbates popularity bias more severely for users who prefer unpopular items\nthan for users that prefer popular items.",
+        "translated": ""
+    },
+    {
+        "title": "Recognizing Similar Crises through the Application of Ontology-based\n  Knowledge Mining",
+        "url": "http://arxiv.org/abs/2401.03770v1",
+        "pub_date": "2024-01-08",
+        "summary": "Recognizing and learning from similar crisis situations is crucial for the\ndevelopment of effective response strategies. This study addresses the\nchallenge of identifying similarities within a wide range of crisis-related\ninformation. To overcome this challenge, we employed an ontology-based crisis\nsituation knowledge base enriched with crisis-related information.\nAdditionally, we implemented a semantic similarity measure to assess the degree\nof similarity between crisis situations. Our investigation specifically focuses\non recognizing similar crises through the application of ontology-based\nknowledge mining. Through our experiments, we demonstrate the accuracy and\nefficiency of our approach to recognizing similar crises. These findings\nhighlight the potential of ontology-based knowledge mining for enhancing crisis\nrecognition processes and improving overall crisis management strategies.",
+        "translated": ""
+    },
+    {
+        "title": "Towards Efficient Communication Federated Recommendation System via\n  Low-rank Training",
+        "url": "http://arxiv.org/abs/2401.03748v1",
+        "pub_date": "2024-01-08",
+        "summary": "In Federated Recommendation (FedRec) systems, communication costs are a\ncritical bottleneck that arises from the need to transmit neural network models\nbetween user devices and a central server. Prior approaches to these challenges\noften lead to issues such as computational overheads, model specificity\nconstraints, and compatibility issues with secure aggregation protocols. In\nresponse, we propose a novel framework, called Correlated Low-rank Structure\n(CoLR), which leverages the concept of adjusting lightweight trainable\nparameters while keeping most parameters frozen. Our approach substantially\nreduces communication overheads without introducing additional computational\nburdens. Critically, our framework remains fully compatible with secure\naggregation protocols, including the robust use of Homomorphic Encryption. Our\napproach resulted in a reduction of up to 93.75% in payload size, with only an\napproximate 8% decrease in recommendation performance across datasets. Code for\nreproducing our experiments can be found at\nhttps://github.com/NNHieu/CoLR-FedRec.",
+        "translated": ""
+    },
+    {
+        "title": "Reproducibility Analysis and Enhancements for Multi-Aspect Dense\n  Retriever with Aspect Learning",
+        "url": "http://arxiv.org/abs/2401.03648v1",
+        "pub_date": "2024-01-08",
+        "summary": "Multi-aspect dense retrieval aims to incorporate aspect information (e.g.,\nbrand and category) into dual encoders to facilitate relevance matching. As an\nearly and representative multi-aspect dense retriever, MADRAL learns several\nextra aspect embeddings and fuses the explicit aspects with an implicit aspect\n\"OTHER\" for final representation. MADRAL was evaluated on proprietary data and\nits code was not released, making it challenging to validate its effectiveness\non other datasets. We failed to reproduce its effectiveness on the public\nMA-Amazon data, motivating us to probe the reasons and re-examine its\ncomponents. We propose several component alternatives for comparisons,\nincluding replacing \"OTHER\" with \"CLS\" and representing aspects with the first\nseveral content tokens. Through extensive experiments, we confirm that learning\n\"OTHER\" from scratch in aspect fusion is harmful. In contrast, our proposed\nvariants can greatly enhance the retrieval performance. Our research not only\nsheds light on the limitations of MADRAL but also provides valuable insights\nfor future studies on more powerful multi-aspect dense retrieval models. Code\nwill be released at:\nhttps://github.com/sunxiaojie99/Reproducibility-for-MADRAL.",
+        "translated": ""
+    },
+    {
+        "title": "Bridging the Skills Gap: Evaluating an AI-Assisted Provider Platform to\n  Support Care Providers with Empathetic Delivery of Protocolized Therapy",
+        "url": "http://arxiv.org/abs/2401.03631v1",
+        "pub_date": "2024-01-08",
+        "summary": "Despite the high prevalence and burden of mental health conditions, there is\na global shortage of mental health providers. Artificial Intelligence (AI)\nmethods have been proposed as a way to address this shortage, by supporting\nproviders with less extensive training as they deliver care. To this end, we\ndeveloped the AI-Assisted Provider Platform (A2P2), a text-based virtual\ntherapy interface that includes a response suggestion feature, which supports\nproviders in delivering protocolized therapies empathetically. We studied\nproviders with and without expertise in mental health treatment delivering a\ntherapy session using the platform with (intervention) and without (control)\nAI-assistance features. Upon evaluation, the AI-assisted system significantly\ndecreased response times by 29.34% (p=0.002), tripled empathic response\naccuracy (p=0.0001), and increased goal recommendation accuracy by 66.67%\n(p=0.001) across both user groups compared to the control. Both groups rated\nthe system as having excellent usability.",
+        "translated": ""
+    },
+    {
+        "title": "ChatGPT for Conversational Recommendation: Refining Recommendations by\n  Reprompting with Feedback",
+        "url": "http://arxiv.org/abs/2401.03605v1",
+        "pub_date": "2024-01-07",
+        "summary": "Recommendation algorithms have been pivotal in handling the overwhelming\nvolume of online content. However, these algorithms seldom consider direct user\ninput, resulting in superficial interaction between them. Efforts have been\nmade to include the user directly in the recommendation process through\nconversation, but these systems too have had limited interactivity. Recently,\nLarge Language Models (LLMs) like ChatGPT have gained popularity due to their\nease of use and their ability to adapt dynamically to various tasks while\nresponding to feedback. In this paper, we investigate the effectiveness of\nChatGPT as a top-n conversational recommendation system. We build a rigorous\npipeline around ChatGPT to simulate how a user might realistically probe the\nmodel for recommendations: by first instructing and then reprompting with\nfeedback to refine a set of recommendations. We further explore the effect of\npopularity bias in ChatGPT's recommendations, and compare its performance to\nbaseline models. We find that reprompting ChatGPT with feedback is an effective\nstrategy to improve recommendation relevancy, and that popularity bias can be\nmitigated through prompt engineering.",
+        "translated": ""
     }
 ]

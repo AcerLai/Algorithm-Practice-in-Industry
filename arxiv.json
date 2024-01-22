@@ -8972,5 +8972,75 @@
         "pub_date": "2024-01-17",
         "summary": "Effective recommendation systems rely on capturing user preferences, often\nrequiring incorporating numerous features such as universally unique\nidentifiers (UUIDs) of entities. However, the exceptionally high cardinality of\nUUIDs poses a significant challenge in terms of model degradation and increased\nmodel size due to sparsity. This paper presents two innovative techniques to\naddress the challenge of high cardinality in recommendation systems.\nSpecifically, we propose a bag-of-words approach, combined with layer sharing,\nto substantially decrease the model size while improving performance. Our\ntechniques were evaluated through offline and online experiments on Uber use\ncases, resulting in promising results demonstrating our approach's\neffectiveness in optimizing recommendation systems and enhancing their overall\nperformance.",
         "translated": ""
+    },
+    {
+        "title": "Using LLMs to discover emerging coded antisemitic hate-speech emergence\n  in extremist social media",
+        "url": "http://arxiv.org/abs/2401.10841v1",
+        "pub_date": "2024-01-19",
+        "summary": "Online hate speech proliferation has created a difficult problem for social\nmedia platforms. A particular challenge relates to the use of coded language by\ngroups interested in both creating a sense of belonging for its users and\nevading detection. Coded language evolves quickly and its use varies over time.\nThis paper proposes a methodology for detecting emerging coded hate-laden\nterminology. The methodology is tested in the context of online antisemitic\ndiscourse. The approach considers posts scraped from social media platforms,\noften used by extremist users. The posts are scraped using seed expressions\nrelated to previously known discourse of hatred towards Jews. The method begins\nby identifying the expressions most representative of each post and calculating\ntheir frequency in the whole corpus. It filters out grammatically incoherent\nexpressions as well as previously encountered ones so as to focus on emergent\nwell-formed terminology. This is followed by an assessment of semantic\nsimilarity to known antisemitic terminology using a fine-tuned large language\nmodel, and subsequent filtering out of the expressions that are too distant\nfrom known expressions of hatred. Emergent antisemitic expressions containing\nterms clearly relating to Jewish topics are then removed to return only coded\nexpressions of hatred.",
+        "translated": ""
+    },
+    {
+        "title": "Dynamic Q&amp;A of Clinical Documents with Large Language Models",
+        "url": "http://arxiv.org/abs/2401.10733v1",
+        "pub_date": "2024-01-19",
+        "summary": "Electronic health records (EHRs) house crucial patient data in clinical\nnotes. As these notes grow in volume and complexity, manual extraction becomes\nchallenging. This work introduces a natural language interface using large\nlanguage models (LLMs) for dynamic question-answering on clinical notes. Our\nchatbot, powered by Langchain and transformer-based LLMs, allows users to query\nin natural language, receiving relevant answers from clinical notes.\nExperiments, utilizing various embedding models and advanced LLMs, show Wizard\nVicuna's superior accuracy, albeit with high compute demands. Model\noptimization, including weight quantization, improves latency by approximately\n48 times. Promising results indicate potential, yet challenges such as model\nhallucinations and limited diverse medical case evaluations remain. Addressing\nthese gaps is crucial for unlocking the value in clinical notes and advancing\nAI-driven clinical decision-making.",
+        "translated": ""
+    },
+    {
+        "title": "Beyond RMSE and MAE: Introducing EAUC to unmask hidden bias and\n  unfairness in dyadic regression models",
+        "url": "http://arxiv.org/abs/2401.10690v1",
+        "pub_date": "2024-01-19",
+        "summary": "Dyadic regression models, which predict real-valued outcomes for pairs of\nentities, are fundamental in many domains (e.g. predicting the rating of a user\nto a product in Recommender Systems) and promising and under exploration in\nmany others (e.g. approximating the adequate dosage of a drug for a patient in\npersonalized pharmacology). In this work, we demonstrate that non-uniformity in\nthe observed value distributions of individual entities leads to severely\nbiased predictions in state-of-the-art models, skewing predictions towards the\naverage of observed past values for the entity and providing worse-than-random\npredictive power in eccentric yet equally important cases. We show that the\nusage of global error metrics like Root Mean Squared Error (RMSE) and Mean\nAbsolute Error (MAE) is insufficient to capture this phenomenon, which we name\neccentricity bias, and we introduce Eccentricity-Area Under the Curve (EAUC) as\na new complementary metric that can quantify it in all studied models and\ndatasets. We also prove the adequateness of EAUC by using naive de-biasing\ncorrections to demonstrate that a lower model bias correlates with a lower EAUC\nand vice-versa. This work contributes a bias-aware evaluation of dyadic\nregression models to avoid potential unfairness and risks in critical\nreal-world applications of such systems.",
+        "translated": ""
+    },
+    {
+        "title": "Automatic Construction of Multi-faceted User Profiles using Text\n  Clustering and its Application to Expert Recommendation and Filtering\n  Problems",
+        "url": "http://arxiv.org/abs/2401.10634v1",
+        "pub_date": "2024-01-19",
+        "summary": "In the information age we are living in today, not only are we interested in\naccessing multimedia objects such as documents, videos, etc. but also in\nsearching for professional experts, people or celebrities, possibly for\nprofessional needs or just for fun. Information access systems need to be able\nto extract and exploit various sources of information (usually in text format)\nabout such individuals, and to represent them in a suitable way usually in the\nform of a profile. In this article, we tackle the problems of profile-based\nexpert recommendation and document filtering from a machine learning\nperspective by clustering expert textual sources to build profiles and capture\nthe different hidden topics in which the experts are interested. The experts\nwill then be represented by means of multi-faceted profiles. Our experiments\nshow that this is a valid technique to improve the performance of expert\nfinding and document filtering.",
+        "translated": ""
+    },
+    {
+        "title": "LDA-based Term Profiles for Expert Finding in a Political Setting",
+        "url": "http://arxiv.org/abs/2401.10617v1",
+        "pub_date": "2024-01-19",
+        "summary": "A common task in many political institutions (i.e. Parliament) is to find\npoliticians who are experts in a particular field. In order to tackle this\nproblem, the first step is to obtain politician profiles which include their\ninterests, and these can be automatically learned from their speeches. As a\npolitician may have various areas of expertise, one alternative is to use a set\nof subprofiles, each of which covers a different subject. In this study, we\npropose a novel approach for this task by using latent Dirichlet allocation\n(LDA) to determine the main underlying topics of each political speech, and to\ndistribute the related terms among the different topic-based subprofiles. With\nthis objective, we propose the use of fifteen distance and similarity measures\nto automatically determine the optimal number of topics discussed in a\ndocument, and to demonstrate that every measure converges into five strategies:\nEuclidean, Dice, Sorensen, Cosine and Overlap. Our experimental results showed\nthat the scores of the different accuracy metrics of the proposed strategies\ntended to be higher than those of the baselines for expert recommendation\ntasks, and that the use of an appropriate number of topics has proved relevant.",
+        "translated": ""
+    },
+    {
+        "title": "Publication venue recommendation using profiles based on clustering",
+        "url": "http://arxiv.org/abs/2401.10611v1",
+        "pub_date": "2024-01-19",
+        "summary": "In this paper we study the venue recommendation problem in order to help\nresearchers to identify a journal or conference to submit a given paper. A\ncommon approach to tackle this problem is to build profiles defining the scope\nof each venue. Then, these profiles are compared against the target paper. In\nour approach we will study how clustering techniques can be used to construct\ntopic-based profiles and use an Information Retrieval based approach to obtain\nthe final recommendations. Additionally, we will explore how the use of\nauthorship, representing a complementary piece of information, helps to improve\nthe recommendations.",
+        "translated": ""
+    },
+    {
+        "title": "Use of topical and temporal profiles and their hybridisation for\n  content-based recommendation",
+        "url": "http://arxiv.org/abs/2401.10607v1",
+        "pub_date": "2024-01-19",
+        "summary": "In the context of content-based recommender systems, the aim of this paper is\nto determine how better profiles can be built and how these affect the\nrecommendation process based on the incorporation of temporality, i.e. the\ninclusion of time in the recommendation process, and topicality, i.e. the\nrepresentation of texts associated with users and items using topics and their\ncombination. The main contribution of the paper is to present two different\nways of hybridising these two dimensions and to evaluate and compare them with\nother alternatives.",
+        "translated": ""
+    },
+    {
+        "title": "Understanding Biases in ChatGPT-based Recommender Systems: Provider\n  Fairness, Temporal Stability, and Recency",
+        "url": "http://arxiv.org/abs/2401.10545v1",
+        "pub_date": "2024-01-19",
+        "summary": "This study explores the nuanced capabilities and inherent biases of\nRecommender Systems using Large Language Models (RecLLMs), with a focus on\nChatGPT-based systems. It studies into the contrasting behaviors of generative\nmodels and traditional collaborative filtering models in movie recommendations.\nThe research primarily investigates prompt design strategies and their impact\non various aspects of recommendation quality, including accuracy, provider\nfairness, diversity, stability, genre dominance, and temporal freshness\n(recency).\n  Our experimental analysis reveals that the introduction of specific 'system\nroles' and 'prompt strategies' in RecLLMs significantly influences their\nperformance. For instance, role-based prompts enhance fairness and diversity in\nrecommendations, mitigating popularity bias. We find that while GPT-based\nmodels do not always match the performance of CF baselines, they exhibit a\nunique tendency to recommend newer and more diverse movie genres. Notably,\nGPT-based models tend to recommend more recent films, particularly those\nreleased post-2000, and show a preference for genres like \\sq{Drama} and\nComedy, and Romance (compared to CF Action, Adventure) presumably due to the\nRecLLMs' training on varied data sets, which allows them to capture recent\ntrends and discussions more effectively than CF models. Interestingly, our\nresults demonstrate that the 'Simple' and 'Chain of Thought (COT)' paradigms\nyield the highest accuracy. These findings imply the potential of combining\nthese strategies with scenarios that favor more recent content, thereby\noffering a more balanced and up-to-date recommendation experience. This study\ncontributes significantly to the understanding of emerging RecLLMs,\nparticularly in the context of harms and biases within these systems.",
+        "translated": ""
+    },
+    {
+        "title": "Generative Dense Retrieval: Memory Can Be a Burden",
+        "url": "http://arxiv.org/abs/2401.10487v1",
+        "pub_date": "2024-01-19",
+        "summary": "Generative Retrieval (GR), autoregressively decoding relevant document\nidentifiers given a query, has been shown to perform well under the setting of\nsmall-scale corpora. By memorizing the document corpus with model parameters,\nGR implicitly achieves deep interaction between query and document. However,\nsuch a memorizing mechanism faces three drawbacks: (1) Poor memory accuracy for\nfine-grained features of documents; (2) Memory confusion gets worse as the\ncorpus size increases; (3) Huge memory update costs for new documents. To\nalleviate these problems, we propose the Generative Dense Retrieval (GDR)\nparadigm. Specifically, GDR first uses the limited memory volume to achieve\ninter-cluster matching from query to relevant document clusters.\nMemorizing-free matching mechanism from Dense Retrieval (DR) is then introduced\nto conduct fine-grained intra-cluster matching from clusters to relevant\ndocuments. The coarse-to-fine process maximizes the advantages of GR's deep\ninteraction and DR's scalability. Besides, we design a cluster identifier\nconstructing strategy to facilitate corpus memory and a cluster-adaptive\nnegative sampling strategy to enhance the intra-cluster mapping ability.\nEmpirical results show that GDR obtains an average of 3.0 R@100 improvement on\nNQ dataset under multiple settings and has better scalability.",
+        "translated": ""
+    },
+    {
+        "title": "Enhancing Scalability in Recommender Systems through Lottery Ticket\n  Hypothesis and Knowledge Distillation-based Neural Network Pruning",
+        "url": "http://arxiv.org/abs/2401.10484v1",
+        "pub_date": "2024-01-19",
+        "summary": "This study introduces an innovative approach aimed at the efficient pruning\nof neural networks, with a particular focus on their deployment on edge\ndevices. Our method involves the integration of the Lottery Ticket Hypothesis\n(LTH) with the Knowledge Distillation (KD) framework, resulting in the\nformulation of three distinct pruning models. These models have been developed\nto address scalability issue in recommender systems, whereby the complexities\nof deep learning models have hindered their practical deployment. With\njudicious application of the pruning techniques, we effectively curtail the\npower consumption and model dimensions without compromising on accuracy.\nEmpirical evaluation has been performed using two real world datasets from\ndiverse domains against two baselines. Gratifyingly, our approaches yielded a\nGPU computation-power reduction of up to 66.67%. Notably, our study contributes\nto the field of recommendation system by pioneering the application of LTH and\nKD.",
+        "translated": ""
     }
 ]

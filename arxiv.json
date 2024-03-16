@@ -11394,5 +11394,68 @@
         "pub_date": "2024-03-13",
         "summary": "Incorporating item content information into click-through rate (CTR)\nprediction models remains a challenge, especially with the time and space\nconstraints of industrial scenarios. The content-encoding paradigm, which\nintegrates user and item encoders directly into CTR models, prioritizes space\nover time. In contrast, the embedding-based paradigm transforms item and user\nsemantics into latent embeddings and then caches them, prioritizes space over\ntime. In this paper, we introduce a new semantic-token paradigm and propose a\ndiscrete semantic tokenization approach, namely UIST, for user and item\nrepresentation. UIST facilitates swift training and inference while maintaining\na conservative memory footprint. Specifically, UIST quantizes dense embedding\nvectors into discrete tokens with shorter lengths and employs a hierarchical\nmixture inference module to weigh the contribution of each user--item token\npair. Our experimental results on news recommendation showcase the\neffectiveness and efficiency (about 200-fold space compression) of UIST for CTR\nprediction.",
         "translated": ""
+    },
+    {
+        "title": "Logical Discrete Graphical Models Must Supplement Large Language Models\n  for Information Synthesis",
+        "url": "http://arxiv.org/abs/2403.09599v1",
+        "pub_date": "2024-03-14",
+        "summary": "Given the emergent reasoning abilities of large language models, information\nretrieval is becoming more complex. Rather than just retrieve a document,\nmodern information retrieval systems advertise that they can synthesize an\nanswer based on potentially many different documents, conflicting data sources,\nand using reasoning. We review recent literature and argue that the large\nlanguage model has crucial flaws that prevent it from on its own ever\nconstituting general intelligence, or answering general information synthesis\nrequests. This review shows that the following are problems for large language\nmodels: hallucinations, complex reasoning, planning under uncertainty, and\ncomplex calculations. We outline how logical discrete graphical models can\nsolve all of these problems, and outline a method of training a logical\ndiscrete model from unlabeled text.",
+        "translated": ""
+    },
+    {
+        "title": "More than words: Advancements and challenges in speech recognition for\n  singing",
+        "url": "http://arxiv.org/abs/2403.09298v1",
+        "pub_date": "2024-03-14",
+        "summary": "This paper addresses the challenges and advancements in speech recognition\nfor singing, a domain distinctly different from standard speech recognition.\nSinging encompasses unique challenges, including extensive pitch variations,\ndiverse vocal styles, and background music interference. We explore key areas\nsuch as phoneme recognition, language identification in songs, keyword\nspotting, and full lyrics transcription. I will describe some of my own\nexperiences when performing research on these tasks just as they were starting\nto gain traction, but will also show how recent developments in deep learning\nand large-scale datasets have propelled progress in this field. My goal is to\nilluminate the complexities of applying speech recognition to singing, evaluate\ncurrent capabilities, and outline future research directions.",
+        "translated": ""
+    },
+    {
+        "title": "Seed-based information retrieval in networks of research publications:\n  Evaluation of direct citations, bibliographic coupling, co-citations and\n  PubMed related article score",
+        "url": "http://arxiv.org/abs/2403.09295v1",
+        "pub_date": "2024-03-14",
+        "summary": "In this contribution, we deal with seed-based information retrieval in\nnetworks of research publications. Using systematic reviews as a baseline, and\npublication data from the NIH Open Citation Collection, we compare the\nperformance of the three citation-based approaches direct citation,\nco-citation, and bibliographic coupling with respect to recall and precision\nmeasures. In addition, we include the PubMed Related Article score as well as\ncombined approaches in the comparison. We also provide a fairly comprehensive\nreview of earlier research in which citation relations have been used for\ninformation retrieval purposes. The results show an advantage for co-citation\nover bibliographic coupling and direct citation. However, combining the three\napproaches outperforms the exclusive use of co-citation in the study. The\nresults further indicate, in line with previous research, that combining\ncitation-based approaches with textual approaches enhances the performance of\nseed-based information retrieval. The results from the study may guide\napproaches combining citation-based and textual approaches in their choice of\ncitation similarity measures. We suggest that future research use more\nstructured approaches to evaluate methods for seed-based retrieval of\npublications, including comparative approaches as well as the elaboration of\ncommon data sets and baselines for evaluation.",
+        "translated": ""
+    },
+    {
+        "title": "Online and Offline Evaluation in Search Clarification",
+        "url": "http://arxiv.org/abs/2403.09180v1",
+        "pub_date": "2024-03-14",
+        "summary": "The effectiveness of clarification question models in engaging users within\nsearch systems is currently constrained, casting doubt on their overall\nusefulness. To improve the performance of these models, it is crucial to employ\nassessment approaches that encompass both real-time feedback from users (online\nevaluation) and the characteristics of clarification questions evaluated\nthrough human assessment (offline evaluation). However, the relationship\nbetween online and offline evaluations has been debated in information\nretrieval. This study aims to investigate how this discordance holds in search\nclarification. We use user engagement as ground truth and employ several\noffline labels to investigate to what extent the offline ranked lists of\nclarification resemble the ideal ranked lists based on online user engagement.",
+        "translated": ""
+    },
+    {
+        "title": "Evaluating LLMs for Gender Disparities in Notable Persons",
+        "url": "http://arxiv.org/abs/2403.09148v1",
+        "pub_date": "2024-03-14",
+        "summary": "This study examines the use of Large Language Models (LLMs) for retrieving\nfactual information, addressing concerns over their propensity to produce\nfactually incorrect \"hallucinated\" responses or to altogether decline to even\nanswer prompt at all. Specifically, it investigates the presence of\ngender-based biases in LLMs' responses to factual inquiries. This paper takes a\nmulti-pronged approach to evaluating GPT models by evaluating fairness across\nmultiple dimensions of recall, hallucinations and declinations. Our findings\nreveal discernible gender disparities in the responses generated by GPT-3.5.\nWhile advancements in GPT-4 have led to improvements in performance, they have\nnot fully eradicated these gender disparities, notably in instances where\nresponses are declined. The study further explores the origins of these\ndisparities by examining the influence of gender associations in prompts and\nthe homogeneity in the responses.",
+        "translated": ""
+    },
+    {
+        "title": "USimAgent: Large Language Models for Simulating Search Users",
+        "url": "http://arxiv.org/abs/2403.09142v1",
+        "pub_date": "2024-03-14",
+        "summary": "Due to the advantages in the cost-efficiency and reproducibility, user\nsimulation has become a promising solution to the user-centric evaluation of\ninformation retrieval systems. Nonetheless, accurately simulating user search\nbehaviors has long been a challenge, because users' actions in search are\nhighly complex and driven by intricate cognitive processes such as learning,\nreasoning, and planning. Recently, Large Language Models (LLMs) have\ndemonstrated remarked potential in simulating human-level intelligence and have\nbeen used in building autonomous agents for various tasks. However, the\npotential of using LLMs in simulating search behaviors has not yet been fully\nexplored. In this paper, we introduce a LLM-based user search behavior\nsimulator, USimAgent. The proposed simulator can simulate users' querying,\nclicking, and stopping behaviors during search, and thus, is capable of\ngenerating complete search sessions for specific search tasks. Empirical\ninvestigation on a real user behavior dataset shows that the proposed simulator\noutperforms existing methods in query generation and is comparable to\ntraditional methods in predicting user clicks and stopping behaviors. These\nresults not only validate the effectiveness of using LLMs for user simulation\nbut also shed light on the development of a more robust and generic user\nsimulators.",
+        "translated": ""
+    },
+    {
+        "title": "Projected Gradient Descent for Spectral Compressed Sensing via Symmetric\n  Hankel Factorization",
+        "url": "http://arxiv.org/abs/2403.09031v1",
+        "pub_date": "2024-03-14",
+        "summary": "Current spectral compressed sensing methods via Hankel matrix completion\nemploy symmetric factorization to demonstrate the low-rank property of the\nHankel matrix. However, previous non-convex gradient methods only utilize\nasymmetric factorization to achieve spectral compressed sensing. In this paper,\nwe propose a novel nonconvex projected gradient descent method for spectral\ncompressed sensing via symmetric factorization named Symmetric Hankel Projected\nGradient Descent (SHGD), which updates only one matrix and avoids a balancing\nregularization term. SHGD reduces about half of the computation and storage\ncosts compared to the prior gradient method based on asymmetric factorization.\n{Besides, the symmetric factorization employed in our work is completely novel\nto the prior low-rank factorization model, introducing a new factorization\nambiguity under complex orthogonal transformation}. Novel distance metrics are\ndesigned for our factorization method and a linear convergence guarantee to the\ndesired signal is established with $O(r^2\\log(n))$ observations. Numerical\nsimulations demonstrate the superior performance of the proposed SHGD method in\nphase transitions and computation efficiency compared to state-of-the-art\nmethods.",
+        "translated": ""
+    },
+    {
+        "title": "Domain Adaptation for Dense Retrieval and Conversational Dense Retrieval\n  through Self-Supervision by Meticulous Pseudo-Relevance Labeling",
+        "url": "http://arxiv.org/abs/2403.08970v1",
+        "pub_date": "2024-03-13",
+        "summary": "Recent studies have demonstrated that the ability of dense retrieval models\nto generalize to target domains with different distributions is limited, which\ncontrasts with the results obtained with interaction-based models. Prior\nattempts to mitigate this challenge involved leveraging adversarial learning\nand query generation approaches, but both approaches nevertheless resulted in\nlimited improvements. In this paper, we propose to combine the query-generation\napproach with a self-supervision approach in which pseudo-relevance labels are\nautomatically generated on the target domain. To accomplish this, a T5-3B model\nis utilized for pseudo-positive labeling, and meticulous hard negatives are\nchosen. We also apply this strategy on conversational dense retrieval model for\nconversational search. A similar pseudo-labeling approach is used, but with the\naddition of a query-rewriting module to rewrite conversational queries for\nsubsequent labeling. This proposed approach enables a model's domain adaptation\nwith real queries and documents from the target dataset. Experiments on\nstandard dense retrieval and conversational dense retrieval models both\ndemonstrate improvements on baseline models when they are fine-tuned on the\npseudo-relevance labeled data.",
+        "translated": ""
+    },
+    {
+        "title": "PAPERCLIP: Associating Astronomical Observations and Natural Language\n  with Multi-Modal Models",
+        "url": "http://arxiv.org/abs/2403.08851v1",
+        "pub_date": "2024-03-13",
+        "summary": "We present PAPERCLIP (Proposal Abstracts Provide an Effective Representation\nfor Contrastive Language-Image Pre-training), a method which associates\nastronomical observations imaged by telescopes with natural language using a\nneural network model. The model is fine-tuned from a pre-trained Contrastive\nLanguage-Image Pre-training (CLIP) model using successful observing proposal\nabstracts and corresponding downstream observations, with the abstracts\noptionally summarized via guided generation using large language models (LLMs).\nUsing observations from the Hubble Space Telescope (HST) as an example, we show\nthat the fine-tuned model embodies a meaningful joint representation between\nobservations and natural language through tests targeting image retrieval\n(i.e., finding the most relevant observations using natural language queries)\nand description retrieval (i.e., querying for astrophysical object classes and\nuse cases most relevant to a given observation). Our study demonstrates the\npotential for using generalist foundation models rather than task-specific\nmodels for interacting with astronomical data by leveraging text as an\ninterface.",
+        "translated": ""
     }
 ]

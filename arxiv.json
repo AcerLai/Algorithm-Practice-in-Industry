@@ -11681,5 +11681,12 @@
         "pub_date": "2024-03-21",
         "summary": "In recent research, contrastive learning has proven to be a highly effective\nmethod for representation learning and is widely used for dense retrieval.\nHowever, we identify that relying solely on contrastive learning can lead to\nsuboptimal retrieval performance. On the other hand, despite many retrieval\ndatasets supporting various learning objectives beyond contrastive learning,\ncombining them efficiently in multi-task learning scenarios can be challenging.\nIn this paper, we introduce M3, an advanced recursive Multi-hop dense sentence\nretrieval system built upon a novel Multi-task Mixed-objective approach for\ndense text representation learning, addressing the aforementioned challenges.\nOur approach yields state-of-the-art performance on a large-scale open-domain\nfact verification benchmark dataset, FEVER. Code and data are available at:\nhttps://github.com/TonyBY/M3",
         "translated": ""
+    },
+    {
+        "title": "gTBLS: Generating Tables from Text by Conditional Question Answering",
+        "url": "http://arxiv.org/abs/2403.14457v1",
+        "pub_date": "2024-03-21",
+        "summary": "Distilling large, unstructured text into a structured, condensed form such as\ntables is an open research problem. One of the primary challenges in\nautomatically generating tables is ensuring their syntactic validity. Prior\napproaches address this challenge by including additional parameters in the\nTransformer's attention mechanism to attend to specific rows and column\nheaders. In contrast to this single-stage method, this paper presents a\ntwo-stage approach called Generative Tables (gTBLS). The first stage infers\ntable structure (row and column headers) from the text. The second stage\nformulates questions using these headers and fine-tunes a causal language model\nto answer them. Furthermore, the gTBLS approach is amenable to the utilization\nof pre-trained Large Language Models in a zero-shot configuration, presenting a\nsolution for table generation in situations where fine-tuning is not feasible.\ngTBLS improves prior approaches by up to 10% in BERTScore on the table\nconstruction task and up to 20% on the table content generation task of the\nE2E, WikiTableText, WikiBio, and RotoWire datasets.",
+        "translated": ""
     }
 ]

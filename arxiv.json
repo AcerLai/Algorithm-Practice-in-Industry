@@ -12591,5 +12591,75 @@
         "pub_date": "2024-04-11",
         "summary": "This paper describes the submission runs from the HLTCOE team at the CIRAL\nCLIR tasks for African languages at FIRE 2023. Our submissions use machine\ntranslation models to translate the documents and the training passages, and\nColBERT-X as the retrieval model. Additionally, we present a set of unofficial\nruns that use an alternative training procedure with a similar training\nsetting.",
         "translated": ""
+    },
+    {
+        "title": "Scenario-Adaptive Fine-Grained Personalization Network: Tailoring User\n  Behavior Representation to the Scenario Context",
+        "url": "http://arxiv.org/abs/2404.09709v1",
+        "pub_date": "2024-04-15",
+        "summary": "Existing methods often adjust representations adaptively only after\naggregating user behavior sequences. This coarse-grained approach to\nre-weighting the entire user sequence hampers the model's ability to accurately\nmodel the user interest migration across different scenarios. To enhance the\nmodel's capacity to capture user interests from historical behavior sequences\nin each scenario, we develop a ranking framework named the Scenario-Adaptive\nFine-Grained Personalization Network (SFPNet), which designs a kind of\nfine-grained method for multi-scenario personalized recommendations.\nSpecifically, SFPNet comprises a series of blocks named as Scenario-Tailoring\nBlock, stacked sequentially. Each block initially deploys a parameter\npersonalization unit to integrate scenario information at a coarse-grained\nlevel by redefining fundamental features. Subsequently, we consolidate\nscenario-adaptively adjusted feature representations to serve as context\ninformation. By employing residual connection, we incorporate this context into\nthe representation of each historical behavior, allowing for context-aware\nfine-grained customization of the behavior representations at the\nscenario-level, which in turn supports scenario-aware user interest modeling.",
+        "translated": ""
+    },
+    {
+        "title": "Recall-Augmented Ranking: Enhancing Click-Through Rate Prediction\n  Accuracy with Cross-Stage Data",
+        "url": "http://arxiv.org/abs/2404.09578v1",
+        "pub_date": "2024-04-15",
+        "summary": "Click-through rate (CTR) prediction plays an indispensable role in online\nplatforms. Numerous models have been proposed to capture users' shifting\npreferences by leveraging user behavior sequences. However, these historical\nsequences often suffer from severe homogeneity and scarcity compared to the\nextensive item pool. Relying solely on such sequences for user representations\nis inherently restrictive, as user interests extend beyond the scope of items\nthey have previously engaged with. To address this challenge, we propose a\ndata-driven approach to enrich user representations. We recognize user\nprofiling and recall items as two ideal data sources within the cross-stage\nframework, encompassing the u2u (user-to-user) and i2i (item-to-item) aspects\nrespectively. In this paper, we propose a novel architecture named\nRecall-Augmented Ranking (RAR). RAR consists of two key sub-modules, which\nsynergistically gather information from a vast pool of look-alike users and\nrecall items, resulting in enriched user representations. Notably, RAR is\northogonal to many existing CTR models, allowing for consistent performance\nimprovements in a plug-and-play manner. Extensive experiments are conducted,\nwhich verify the efficacy and compatibility of RAR against the SOTA methods.",
+        "translated": ""
+    },
+    {
+        "title": "UniSAR: Modeling User Transition Behaviors between Search and\n  Recommendation",
+        "url": "http://arxiv.org/abs/2404.09520v1",
+        "pub_date": "2024-04-15",
+        "summary": "Nowadays, many platforms provide users with both search and recommendation\nservices as important tools for accessing information. The phenomenon has led\nto a correlation between user search and recommendation behaviors, providing an\nopportunity to model user interests in a fine-grained way. Existing approaches\neither model user search and recommendation behaviors separately or overlook\nthe different transitions between user search and recommendation behaviors. In\nthis paper, we propose a framework named UniSAR that effectively models the\ndifferent types of fine-grained behavior transitions for providing users a\nUnified Search And Recommendation service. Specifically, UniSAR models the user\ntransition behaviors between search and recommendation through three steps:\nextraction, alignment, and fusion, which are respectively implemented by\ntransformers equipped with pre-defined masks, contrastive learning that aligns\nthe extracted fine-grained user transitions, and cross-attentions that fuse\ndifferent transitions. To provide users with a unified service, the learned\nrepresentations are fed into the downstream search and recommendation models.\nJoint learning on both search and recommendation data is employed to utilize\nthe knowledge and enhance each other. Experimental results on two public\ndatasets demonstrated the effectiveness of UniSAR in terms of enhancing both\nsearch and recommendation simultaneously. The experimental analysis further\nvalidates that UniSAR enhances the results by successfully modeling the user\ntransition behaviors between search and recommendation.",
+        "translated": ""
+    },
+    {
+        "title": "Exploring the Nexus Between Retrievability and Query Generation\n  Strategies",
+        "url": "http://arxiv.org/abs/2404.09473v1",
+        "pub_date": "2024-04-15",
+        "summary": "Quantifying bias in retrieval functions through document retrievability\nscores is vital for assessing recall-oriented retrieval systems. However, many\nstudies investigating retrieval model bias lack validation of their query\ngeneration methods as accurate representations of retrievability for real users\nand their queries. This limitation results from the absence of established\ncriteria for query generation in retrievability assessments. Typically,\nresearchers resort to using frequent collocations from document corpora when no\nquery log is available. In this study, we address the issue of reproducibility\nand seek to validate query generation methods by comparing retrievability\nscores generated from artificially generated queries to those derived from\nquery logs. Our findings demonstrate a minimal or negligible correlation\nbetween retrievability scores from artificial queries and those from query\nlogs. This suggests that artificially generated queries may not accurately\nreflect retrievability scores as derived from query logs. We further explore\nalternative query generation techniques, uncovering a variation that exhibits\nthe highest correlation. This alternative approach holds promise for improving\nreproducibility when query logs are unavailable.",
+        "translated": ""
+    },
+    {
+        "title": "Artificial Intelligence enhanced Security Problems in Real-Time Scenario\n  using Blowfish Algorithm",
+        "url": "http://arxiv.org/abs/2404.09286v1",
+        "pub_date": "2024-04-14",
+        "summary": "In a nutshell, \"the cloud\" refers to a collection of interconnected computing\nresources made possible by an extensive, real-time communication network like\nthe internet. Because of its potential to reduce processing costs, the emerging\nparadigm of cloud computing has recently attracted a large number of academics.\nThe exponential expansion of cloud computing has made the rapid expansion of\ncloud services very remarkable. Ensuring the security of personal information\nin today's interconnected world is no easy task. These days, security is really\ncrucial. Models of security that are relevant to cloud computing include\nconfidentiality, authenticity, accessibility, data integrity, and recovery.\nUsing the Hybrid Encryption this study, we cover all the security issues and\nleaks in cloud infrastructure.",
+        "translated": ""
+    },
+    {
+        "title": "Competitive Retrieval: Going Beyond the Single Query",
+        "url": "http://arxiv.org/abs/2404.09253v1",
+        "pub_date": "2024-04-14",
+        "summary": "Previous work on the competitive retrieval setting focused on a single-query\nsetting: document authors manipulate their documents so as to improve their\nfuture ranking for a given query. We study a competitive setting where authors\nopt to improve their document's ranking for multiple queries. We use game\ntheoretic analysis to prove that equilibrium does not necessarily exist. We\nthen empirically show that it is more difficult for authors to improve their\ndocuments' rankings for multiple queries with a neural ranker than with a\nstate-of-the-art feature-based ranker. We also present an effective approach\nfor predicting the document most highly ranked in the next induced ranking.",
+        "translated": ""
+    },
+    {
+        "title": "Semantic In-Domain Product Identification for Search Queries",
+        "url": "http://arxiv.org/abs/2404.09091v1",
+        "pub_date": "2024-04-13",
+        "summary": "Accurate explicit and implicit product identification in search queries is\ncritical for enhancing user experiences, especially at a company like Adobe\nwhich has over 50 products and covers queries across hundreds of tools. In this\nwork, we present a novel approach to training a product classifier from user\nbehavioral data. Our semantic model led to &gt;25% relative improvement in CTR\n(click through rate) across the deployed surfaces; a &gt;50% decrease in null\nrate; a 2x increase in the app cards surfaced, which helps drive product\nvisibility.",
+        "translated": ""
+    },
+    {
+        "title": "CuriousLLM: Elevating Multi-Document QA with Reasoning-Infused Knowledge\n  Graph Prompting",
+        "url": "http://arxiv.org/abs/2404.09077v1",
+        "pub_date": "2024-04-13",
+        "summary": "In the field of Question Answering (QA), unifying large language models\n(LLMs) with external databases has shown great success. However, these methods\noften fall short in providing the advanced reasoning needed for complex QA\ntasks. To address these issues, we improve over a novel approach called\nKnowledge Graph Prompting (KGP), which combines knowledge graphs with a\nLLM-based agent to improve reasoning and search accuracy. Nevertheless, the\noriginal KGP framework necessitates costly fine-tuning with large datasets yet\nstill suffers from LLM hallucination. Therefore, we propose a reasoning-infused\nLLM agent to enhance this framework. This agent mimics human curiosity to ask\nfollow-up questions to more efficiently navigate the search. This simple\nmodification significantly boosts the LLM performance in QA tasks without the\nhigh costs and latency associated with the initial KGP framework. Our ultimate\ngoal is to further develop this approach, leading to more accurate, faster, and\ncost-effective solutions in the QA domain.",
+        "translated": ""
+    },
+    {
+        "title": "Introducing Super RAGs in Mistral 8x7B-v1",
+        "url": "http://arxiv.org/abs/2404.08940v1",
+        "pub_date": "2024-04-13",
+        "summary": "The relentless pursuit of enhancing Large Language Models (LLMs) has led to\nthe advent of Super Retrieval-Augmented Generation (Super RAGs), a novel\napproach designed to elevate the performance of LLMs by integrating external\nknowledge sources with minimal structural modifications. This paper presents\nthe integration of Super RAGs into the Mistral 8x7B v1, a state-of-the-art LLM,\nand examines the resultant improvements in accuracy, speed, and user\nsatisfaction. Our methodology uses a fine-tuned instruct model setup and a\ncache tuning fork system, ensuring efficient and relevant data retrieval. The\nevaluation, conducted over several epochs, demonstrates significant\nenhancements across all metrics. The findings suggest that Super RAGs can\neffectively augment LLMs, paving the way for more sophisticated and reliable AI\nsystems. This research contributes to the field by providing empirical evidence\nof the benefits of Super RAGs and offering insights into their potential\napplications.",
+        "translated": ""
+    },
+    {
+        "title": "Approximate Cluster-Based Sparse Document Retrieval with Segmented\n  Maximum Term Weights",
+        "url": "http://arxiv.org/abs/2404.08896v1",
+        "pub_date": "2024-04-13",
+        "summary": "This paper revisits cluster-based retrieval that partitions the inverted\nindex into multiple groups and skips the index partially at cluster and\ndocument levels during online inference using a learned sparse representation.\nIt proposes an approximate search scheme with two parameters to control the\nrank-safeness competitiveness of pruning with segmented maximum term weights\nwithin each cluster. Cluster-level maximum weight segmentation allows an\nimprovement in the rank score bound estimation and threshold-based pruning to\nbe approximately adaptive to bound estimation tightness, resulting in better\nrelevance and efficiency. The experiments with MS MARCO passage ranking and\nBEIR datasets demonstrate the usefulness of the proposed scheme with a\ncomparison to the baselines. This paper presents the design of this approximate\nretrieval scheme with rank-safeness analysis, compares clustering and\nsegmentation options, and reports evaluation results.",
+        "translated": ""
     }
 ]

@@ -12969,5 +12969,19 @@
         "pub_date": "2024-04-23",
         "summary": "Question answering (QA) has become an important application in the advanced\ndevelopment of large language models. General pre-trained large language models\nfor question-answering are not trained to properly understand the knowledge or\nterminology for a specific domain, such as finance, healthcare, education, and\ncustomer service for a product. To better cater to domain-specific\nunderstanding, we build an in-house question-answering system for Adobe\nproducts. We propose a novel framework to compile a large question-answer\ndatabase and develop the approach for retrieval-aware finetuning of a Large\nLanguage model. We showcase that fine-tuning the retriever leads to major\nimprovements in the final generation. Our overall approach reduces\nhallucinations during generation while keeping in context the latest retrieval\ninformation for contextual grounding.",
         "translated": ""
+    },
+    {
+        "title": "ImplicitAVE: An Open-Source Dataset and Multimodal LLMs Benchmark for\n  Implicit Attribute Value Extraction",
+        "url": "http://arxiv.org/abs/2404.15592v1",
+        "pub_date": "2024-04-24",
+        "summary": "Existing datasets for attribute value extraction (AVE) predominantly focus on\nexplicit attribute values while neglecting the implicit ones, lack product\nimages, are often not publicly available, and lack an in-depth human inspection\nacross diverse domains. To address these limitations, we present ImplicitAVE,\nthe first, publicly available multimodal dataset for implicit attribute value\nextraction. ImplicitAVE, sourced from the MAVE dataset, is carefully curated\nand expanded to include implicit AVE and multimodality, resulting in a refined\ndataset of 68k training and 1.6k testing data across five domains. We also\nexplore the application of multimodal large language models (MLLMs) to implicit\nAVE, establishing a comprehensive benchmark for MLLMs on the ImplicitAVE\ndataset. Six recent MLLMs with eleven variants are evaluated across diverse\nsettings, revealing that implicit value extraction remains a challenging task\nfor MLLMs. The contributions of this work include the development and release\nof ImplicitAVE, and the exploration and benchmarking of various MLLMs for\nimplicit AVE, providing valuable insights and potential future research\ndirections. Dataset and code are available at\nhttps://github.com/HenryPengZou/ImplicitAVE",
+        "translated": ""
+    },
+    {
+        "title": "An Annotated Glossary for Data Commons, Data Meshes, and Other Data\n  Platforms",
+        "url": "http://arxiv.org/abs/2404.15475v1",
+        "pub_date": "2024-04-23",
+        "summary": "Cloud-based data commons, data meshes, data hubs, and other data platforms\nare important ways to manage, analyze and share data to accelerate research and\nto support reproducible research. This is an annotated glossary of some of the\nmore common terms used in articles and discussions about these platforms.",
+        "translated": ""
     }
 ]

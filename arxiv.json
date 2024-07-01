@@ -15741,5 +15741,40 @@
         "pub_date": "2024-06-27",
         "summary": "Conversational passage retrieval is challenging as it often requires the\nresolution of references to previous utterances and needs to deal with the\ncomplexities of natural language, such as coreference and ellipsis. To address\nthese challenges, pre-trained sequence-to-sequence neural query rewriters are\ncommonly used to generate a single de-contextualized query based on\nconversation history. Previous research shows that combining multiple query\nrewrites for the same user utterance has a positive effect on retrieval\nperformance. We propose the use of a neural query rewriter to generate multiple\nqueries and show how to integrate those queries in the passage retrieval\npipeline efficiently. The main strength of our approach lies in its simplicity:\nit leverages how the beam search algorithm works and can produce multiple query\nrewrites at no additional cost. Our contributions further include devising ways\nto utilize multi-query rewrites in both sparse and dense first-pass retrieval.\nWe demonstrate that applying our approach on top of a standard passage\nretrieval pipeline delivers state-of-the-art performance without sacrificing\nefficiency.",
         "translated": ""
+    },
+    {
+        "title": "Interactive Topic Models with Optimal Transport",
+        "url": "http://arxiv.org/abs/2406.19928v1",
+        "pub_date": "2024-06-28",
+        "summary": "Topic models are widely used to analyze document collections. While they are\nvaluable for discovering latent topics in a corpus when analysts are unfamiliar\nwith the corpus, analysts also commonly start with an understanding of the\ncontent present in a corpus. This may be through categories obtained from an\ninitial pass over the corpus or a desire to analyze the corpus through a\npredefined set of categories derived from a high level theoretical framework\n(e.g. political ideology). In these scenarios analysts desire a topic modeling\napproach which incorporates their understanding of the corpus while supporting\nvarious forms of interaction with the model. In this work, we present EdTM, as\nan approach for label name supervised topic modeling. EdTM models topic\nmodeling as an assignment problem while leveraging LM/LLM based document-topic\naffinities and using optimal transport for making globally coherent\ntopic-assignments. In experiments, we show the efficacy of our framework\ncompared to few-shot LLM classifiers, and topic models based on clustering and\nLDA. Further, we show EdTM's ability to incorporate various forms of analyst\nfeedback and while remaining robust to noisy analyst inputs.",
+        "translated": ""
+    },
+    {
+        "title": "Rateless Stochastic Coding for Delay-constrained Semantic Communication",
+        "url": "http://arxiv.org/abs/2406.19804v1",
+        "pub_date": "2024-06-28",
+        "summary": "We consider the problem of joint source-channel coding with distortion and\nperception constraints from a rateless perspective, the purpose of which is to\nsettle the balance between reliability (distortion/perception) and\neffectiveness (rate) of transmission over uncertain channels. We find a new\nfinite-blocklength bound for the achievable joint source-channel code rate with\nthe above two constraints. To achieve a superior rateless characteristic of\nJSCC coding, we perform multi-level optimization on various finite-blocklength\ncodes. Based on these two, we then propose a new JSCC coding scheme called\nrateless stochastic coding (RSC). We experimentally demonstrate that the\nproposed RSC can achieve variable rates of transmission maintaining an\nexcellent trade-off between distortion and perception.",
+        "translated": ""
+    },
+    {
+        "title": "Learning Interpretable Legal Case Retrieval via Knowledge-Guided Case\n  Reformulation",
+        "url": "http://arxiv.org/abs/2406.19760v1",
+        "pub_date": "2024-06-28",
+        "summary": "Legal case retrieval for sourcing similar cases is critical in upholding\njudicial fairness. Different from general web search, legal case retrieval\ninvolves processing lengthy, complex, and highly specialized legal documents.\nExisting methods in this domain often overlook the incorporation of legal\nexpert knowledge, which is crucial for accurately understanding and modeling\nlegal cases, leading to unsatisfactory retrieval performance. This paper\nintroduces KELLER, a legal knowledge-guided case reformulation approach based\non large language models (LLMs) for effective and interpretable legal case\nretrieval. By incorporating professional legal knowledge about crimes and law\narticles, we enable large language models to accurately reformulate the\noriginal legal case into concise sub-facts of crimes, which contain the\nessential information of the case. Extensive experiments on two legal case\nretrieval benchmarks demonstrate superior retrieval performance and robustness\non complex legal case queries of KELLER over existing methods.",
+        "translated": ""
+    },
+    {
+        "title": "Doc2Token: Bridging Vocabulary Gap by Predicting Missing Tokens for\n  E-commerce Search",
+        "url": "http://arxiv.org/abs/2406.19647v1",
+        "pub_date": "2024-06-28",
+        "summary": "Addressing the \"vocabulary mismatch\" issue in information retrieval is a\ncentral challenge for e-commerce search engines, because product pages often\nmiss important keywords that customers search for. Doc2Query[1] is a popular\ndocument-expansion technique that predicts search queries for a document and\nincludes the predicted queries with the document for retrieval. However, this\napproach can be inefficient for e-commerce search, because the predicted query\ntokens are often already present in the document. In this paper, we propose\nDoc2Token, a technique that predicts relevant tokens (instead of queries) that\nare missing from the document and includes these tokens in the document for\nretrieval. For the task of predicting missing tokens, we introduce a new\nmetric, \"novel ROUGE score\". Doc2Token is demonstrated to be superior to\nDoc2Query in terms of novel ROUGE score and diversity of predictions. Doc2Token\nalso exhibits efficiency gains by reducing both training and inference times.\nWe deployed the feature to production and observed significant revenue gain in\nan online A/B test, and launched the feature to full traffic on Walmart.com.\n  [1] R. Nogueira, W. Yang, J. Lin, K. Cho, Document expansion by query\nprediction, arXiv preprint arXiv:1904.08375 (2019)",
+        "translated": ""
+    },
+    {
+        "title": "TocBERT: Medical Document Structure Extraction Using Bidirectional\n  Transformers",
+        "url": "http://arxiv.org/abs/2406.19526v1",
+        "pub_date": "2024-06-27",
+        "summary": "Text segmentation holds paramount importance in the field of Natural Language\nProcessing (NLP). It plays an important role in several NLP downstream tasks\nlike information retrieval and document summarization. In this work, we propose\na new solution, namely TocBERT, for segmenting texts using bidirectional\ntransformers. TocBERT represents a supervised solution trained on the detection\nof titles and sub-titles from their semantic representations. This task was\nformulated as a named entity recognition (NER) problem. The solution has been\napplied on a medical text segmentation use-case where the Bio-ClinicalBERT\nmodel is fine-tuned to segment discharge summaries of the MIMIC-III dataset.\nThe performance of TocBERT has been evaluated on a human-labeled ground truth\ncorpus of 250 notes. It achieved an F1-score of 84.6% when evaluated on a\nlinear text segmentation problem and 72.8% on a hierarchical text segmentation\nproblem. It outperformed a carefully designed rule-based solution, particularly\nin distinguishing titles from subtitles.",
+        "translated": ""
     }
 ]
